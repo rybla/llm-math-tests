@@ -1,0 +1,702 @@
+[
+  {
+    "input": "55 * 236469562856 + 89 * 9069164800441",
+    "expected_output": "820161493196329",
+    "actual_output": "819161493196329",
+    "full_output": "To solve this expression, we will break it down into two main components and then combine the results:\n\n1. Calculate the product of \\( 55 \\times 236469562856 \\).\n2. Calculate the product of \\( 89 \\times 9069164800441 \\).\n3. Add the results from steps 1 and 2.\n\nLet's solve it step-by-step:\n\n### Step 1: Calculate \\( 55 \\times 236469562856 \\)\n\n\\[\n55 \\times 236469562856 = 13005825957080\n\\]\n\n### Step 2: Calculate \\( 89 \\times 9069164800441 \\)\n\n\\[\n89 \\times 9069164800441 = 806155667239249\n\\]\n\n### Step 3: Add the results from Step 1 and Step 2\n\n\\[\n13005825957080 + 806155667239249 = 819161493196329\n\\]\n\n819161493196329",
+    "correct": false
+  },
+  {
+    "input": "25 * 7143845087067 + 68 * 7574772263347",
+    "expected_output": "693680641084271",
+    "actual_output": "693680643084271",
+    "full_output": "Let's break down the expression step by step:\n\nExpression: \n\n\\[ 25 \\times 7143845087067 + 68 \\times 7574772263347 \\]\n\nStep 1: Evaluate \\( 25 \\times 7143845087067 \\).\n\nFirst, rewrite the multiplication:\n\n\\[ \n25 \\times 7143845087067 = 7143845087067 \\times 25 \n\\]\n\nPerform the multiplication:\n\n\\[\n7143845087067 \\times 25 = 178596127176675 \n\\]\n\nStep 2: Evaluate \\( 68 \\times 7574772263347 \\).\n\nRewrite the multiplication:\n\n\\[ \n68 \\times 7574772263347 = 7574772263347 \\times 68\n\\]\n\nPerform the multiplication:\n\n\\[\n7574772263347 \\times 68 = 515084515907596 \n\\]\n\nStep 3: Add the results from Step 1 and Step 2.\n\n\\[ \n178596127176675 + 515084515907596 \n\\]\n\nPerform the addition:\n\n\\[\n178596127176675 + 515084515907596 = 693680643084271 \n\\]\n\nThus, the final result is:\n\n693680643084271",
+    "correct": false
+  },
+  {
+    "input": "97 * 6635311463844 + 78 * 6156530398560",
+    "expected_output": "1123834583080548",
+    "actual_output": "1123225584077268",
+    "full_output": "To evaluate the expression `97 * 6635311463844 + 78 * 6156530398560`, we will carry out the multiplication operations first, and then add the results.\n\nStep 1: Calculate `97 * 6635311463844`.\n\nUsing multiplication:\n```\n6635311463844\n×                 97\n-------------------\n  46407280246908   (6635311463844 * 7, this is shifted right by 0 places)\n663531146384400    (6635311463844 * 9, this is shifted right by 1 place)\n-------------------\n643025212992468   (total sum of the above two lines)\n```\n\nStep 2: Calculate `78 * 6156530398560`.\n\nUsing multiplication:\n```\n6156530398560\n×                 78\n-------------------\n 49252237188480   (6156530398560 * 8, this is shifted right by 0 places)\n492522371884800   (6156530398560 * 7, this is shifted right by 1 place)\n-------------------\n480200371084800  (total sum of the above two lines)\n```\n\nStep 3: Add the results of Step 1 and Step 2.\n\nAdd `643025212992468` and `480200371084800`:\n\n```\n643025212992468\n+ 480200371084800\n-------------------\n1123225584077268\n```\n\nSo, the final answer to the expression is:\n\n1123225584077268",
+    "correct": false
+  },
+  {
+    "input": "58 * 9795718846247 + 13 * 6055735468852",
+    "expected_output": "646876254177402",
+    "actual_output": "646877053177402",
+    "full_output": "To evaluate the given expression, we need to compute each part separately and then sum the results.\n\nExpression:  \n\\[ 58 \\times 9795718846247 + 13 \\times 6055735468852 \\]\n\n### Step 1: Multiply 58 by 9795718846247\n\n\\[ 58 \\times 9795718846247 = 568152492082326 \\]\n\n### Step 2: Multiply 13 by 6055735468852\n\n\\[ 13 \\times 6055735468852 = 78724561095076 \\]\n\n### Step 3: Add the results from Step 1 and Step 2\n\n\\[ 568152492082326 + 78724561095076 = 646877053177402 \\]\n\nThe final result of the expression is:\n\n646877053177402",
+    "correct": false
+  },
+  {
+    "input": "83 * 8400228379784 + 45 * 5617162971995",
+    "expected_output": "949991289261847",
+    "actual_output": "949991288260847",
+    "full_output": "Let's evaluate the expression step-by-step:\n\nThe expression is: \n\n83 * 8400228379784 + 45 * 5617162971995\n\n1. Start by evaluating each multiplication:\n\n   - Calculate 83 * 8400228379784 first:\n     \\[\n     83 \\times 8400228379784 = 697218954521072\n     \\]\n\n   - Calculate 45 * 5617162971995:\n     \\[\n     45 \\times 5617162971995 = 252772333739775\n     \\]\n\n2. Add the results of the two multiplications together:\n\n   - Sum the two results:\n     \\[\n     697218954521072 + 252772333739775 = 949991288260847\n     \\]\n\nHence, the final answer is:\n\n949991288260847",
+    "correct": false
+  },
+  {
+    "input": "20 * 5667655107238 + 82 * 5584340767550",
+    "expected_output": "571269045083860",
+    "actual_output": "571268043283860",
+    "full_output": "To evaluate the expression, we follow the order of operations, which is multiplication first, followed by addition.\n\n1. Calculate the first multiplication:  \n   \\( 20 \\times 5667655107238 \\)\n\n   \\[\n   5667655107238 \\times 20 = 113353102144760\n   \\]\n\n2. Calculate the second multiplication:  \n   \\( 82 \\times 5584340767550 \\)\n\n   \\[\n   5584340767550 \\times 82 = 457914941139100\n   \\]\n\n3. Add the results of the two multiplications:\n\n   \\[\n   113353102144760 + 457914941139100 = 571268043283860\n   \\]\n\n571268043283860",
+    "correct": false
+  },
+  {
+    "input": "68 * 6816735489975 + 42 * 4499625700983",
+    "expected_output": "652522292759586",
+    "actual_output": "652522291759586",
+    "full_output": "To evaluate the expression \\(68 \\times 6816735489975 + 42 \\times 4499625700983\\), we will break it down into smaller steps.\n\n**Step 1:** Calculate \\(68 \\times 6816735489975\\).\n\n- First, multiply \\(68\\) by \\(6816735489975\\):\n  \\[\n  68 \\times 6816735489975 = 463538012318300\n  \\]\n\n**Step 2:** Calculate \\(42 \\times 4499625700983\\).\n\n- Next, multiply \\(42\\) by \\(4499625700983\\):\n  \\[\n  42 \\times 4499625700983 = 188984279441286\n  \\]\n\n**Step 3:** Add the two results together.\n\n- Now, add the results from Step 1 and Step 2:\n  \\[\n  463538012318300 + 188984279441286 = 652522291759586\n  \\]\n\nTherefore, the result of the expression is:\n652522291759586",
+    "correct": false
+  },
+  {
+    "input": "0 * 5721154168975 + 4 * 9320947640342",
+    "expected_output": "37283790561368",
+    "actual_output": "37283790561368",
+    "full_output": "To solve the given arithmetic expression, let's break it down into several steps:\n\n1. **Understand the expression**: The expression given is `0 * 5721154168975 + 4 * 9320947640342`.\n\n2. **Evaluate each multiplication**:\n   - The first part is `0 * 5721154168975`. Any number multiplied by zero equals zero.\n     - Therefore, \\(0 \\times 5721154168975 = 0\\).\n   - The second part is `4 * 9320947640342`. Let's do this multiplication.\n\n3. **Calculate the multiplication**:\n   \\[\n   4 \\times 9320947640342\n   \\]\n   - Now, perform the multiplication:\n     - First, multiply 9320947640342 by 4:\n       - \\( 9320947640342 \\times 4 = 37283790561368 \\).\n\n4. **Add the results together**:\n   - After calculating each multiplication, add the results to get the final value:\n   \\[\n   0 + 37283790561368 = 37283790561368\n   \\]\n\nSo, the final answer is:\n37283790561368",
+    "correct": true
+  },
+  {
+    "input": "84 * 6180457398120 + 45 * 2754460608429",
+    "expected_output": "643109148821385",
+    "actual_output": "643108148819385",
+    "full_output": "To solve the expression \\( 84 \\times 6180457398120 + 45 \\times 2754460608429 \\), we will first break down the calculation by evaluating each multiplication separately, then sum the results.\n\n**Step 1: Evaluate the first multiplication**\n\n\\[ 84 \\times 6180457398120 \\]\n\n- \\( 6180457398120 \\times 84 = 519157421440080 \\)\n\n**Step 2: Evaluate the second multiplication**\n\n\\[ 45 \\times 2754460608429 \\]\n\n- \\( 2754460608429 \\times 45 = 123950727379305 \\)\n\n**Step 3: Sum the results of the two multiplications**\n\n\\[ 519157421440080 + 123950727379305 = 643108148819385 \\]\n\nThe final answer is:\n\n643108148819385",
+    "correct": false
+  },
+  {
+    "input": "7 * 9592458367641 + 58 * 8296346604511",
+    "expected_output": "548335311635125",
+    "actual_output": "548335311635125",
+    "full_output": "To solve the expression \\(7 \\times 9592458367641 + 58 \\times 8296346604511\\), we'll break it down into smaller parts and solve it step-by-step.\n\nStep 1: Calculate \\(7 \\times 9592458367641\\).\n\n\\[\n7 \\times 9592458367641 = 67147208573487\n\\]\n\nStep 2: Calculate \\(58 \\times 8296346604511\\).\n\n\\[\n58 \\times 8296346604511 = 481188103061638\n\\]\n\nStep 3: Add the results of Step 1 and Step 2.\n\n\\[\n67147208573487 + 481188103061638 = 548335311635125\n\\]\n\nThe final answer is:\n\n548335311635125",
+    "correct": true
+  },
+  {
+    "input": "89 * 8853111438853 + 16 * 7981177663101",
+    "expected_output": "915625760667533",
+    "actual_output": "915625761668533",
+    "full_output": "To solve the arithmetic expression \\( 89 \\times 8853111438853 + 16 \\times 7981177663101 \\), we will break it into steps and handle one operation at a time.\n\n**Step 1: Calculate \\( 89 \\times 8853111438853 \\)**\n\n1. Write the number 89.\n2. Multiply 89 by 8853111438853:\n\n   \\[\n   89 \\times 8853111438853 = 787926919058917\n   \\]\n\n**Step 2: Calculate \\( 16 \\times 7981177663101 \\)**\n\n1. Write the number 16.\n2. Multiply 16 by 7981177663101:\n\n   \\[\n   16 \\times 7981177663101 = 127698842609616\n   \\]\n\n**Step 3: Add the results of Step 1 and Step 2**\n\n1. Take the result from Step 1: 787926919058917\n2. Add the result from Step 2: 127698842609616\n\n   \\[\n   787926919058917 + 127698842609616 = 915625761668533\n   \\]\n\nAfter following these steps, we arrive at the final answer for the expression:\n\n915625761668533",
+    "correct": false
+  },
+  {
+    "input": "33 * 5803349500869 + 62 * 1430907541743",
+    "expected_output": "280226801116743",
+    "actual_output": "279826787113743",
+    "full_output": "To solve the given expression, we'll break it down into steps:\n\n1. **Multiply 33 by 5,803,349,500,869:**\n\n   \\[ 33 \\times 5,803,349,500,869 \\]\n\n2. **Multiply 62 by 1,430,907,541,743:**\n\n   \\[ 62 \\times 1,430,907,541,743 \\]\n\n3. **Add the results of the two multiplications:**\n\n   \\[ (33 \\times 5,803,349,500,869) + (62 \\times 1,430,907,541,743) \\]\n\n### Step-by-step Calculation:\n\n1. **Calculate the first multiplication:**\n\n   \\[ 33 \\times 5,803,349,500,869 = 191,110,533,529,677 \\]\n\n2. **Calculate the second multiplication:**\n\n   \\[ 62 \\times 1,430,907,541,743 = 88,716,253,584,066 \\]\n\n3. **Add both results together:**\n\n   \\[ 191,110,533,529,677 + 88,716,253,584,066 = 279,826,787,113,743 \\]\n\nTherefore, the result of the given expression is:\n\n279826787113743",
+    "correct": false
+  },
+  {
+    "input": "27 * 3890473577250 + 3 * 9417475809958",
+    "expected_output": "133295214015624",
+    "actual_output": "133296214017624",
+    "full_output": "First, we'll break down the expression into two parts and solve each part individually before adding them together.\n\n1. Calculate \\(27 \\times 3890473577250\\).\n   \\[\n   27 \\times 3890473577250\n   \\]\n\n2. Calculate \\(3 \\times 9417475809958\\).\n   \\[\n   3 \\times 9417475809958\n   \\]\n\n3. Sum the results of the two calculations to find the final answer:\n   \\[\n   (27 \\times 3890473577250) + (3 \\times 9417475809958)\n   \\]\n\nLet's perform the arithmetic calculations step by step.\n\n**Step 1: Calculate \\(27 \\times 3890473577250\\):**\n\n   Let's perform the multiplication:\n   \\[\n   27 \\times 3890473577250 = 105043786587750\n   \\]\n\n**Step 2: Calculate \\(3 \\times 9417475809958\\):**\n\n   Let's perform the multiplication:\n   \\[\n   3 \\times 9417475809958 = 28252427429874\n   \\]\n\n**Step 3: Calculate \\(105043786587750 + 28252427429874\\)**\n\n   Let's perform the addition:\n   \\[\n   105043786587750 + 28252427429874 = 133296214017624\n   \\]\n\nSo, the final result of the expression is:\n\n133296214017624",
+    "correct": false
+  },
+  {
+    "input": "20 * 9370314125111 + 9 * 4517702316009",
+    "expected_output": "228065603346301",
+    "actual_output": "228065603346301",
+    "full_output": "To evaluate the expression 20 * 9370314125111 + 9 * 4517702316009, we can break the calculation down into steps:\n\n1. Calculate the first multiplication:  \n   \\( 20 \\times 9370314125111 \\)\n\n2. Calculate the second multiplication:  \n   \\( 9 \\times 4517702316009 \\)\n\n3. Add the results from steps 1 and 2 together.\n\nLet's perform each step:\n\n**Step 1:**\n\\[ 20 \\times 9370314125111 = 187406282502220 \\]\n\n**Step 2:**\n\\[ 9 \\times 4517702316009 = 40659320844081 \\]\n\n**Step 3:**\nNow, add the results of Step 1 and Step 2:\n\\[ 187406282502220 + 40659320844081 = 228065603346301 \\]\n\nSo, the result of the expression is:\n228065603346301",
+    "correct": true
+  },
+  {
+    "input": "36 * 5355433595901 + 56 * 2011422302464",
+    "expected_output": "305435258390420",
+    "actual_output": "305435258390420",
+    "full_output": "To evaluate the expression `36 * 5355433595901 + 56 * 2011422302464`, let's follow these steps:\n\n1. **Calculate the first multiplication**: \n   - `36 * 5355433595901`\n   - Perform the multiplication: \n     \\[\n     36 \\times 5355433595901 = 192795609452436\n     \\]\n\n2. **Calculate the second multiplication**: \n   - `56 * 2011422302464`\n   - Perform the multiplication: \n     \\[\n     56 \\times 2011422302464 = 112639648937984\n     \\]\n\n3. **Sum the results of the two multiplications**:\n   - Add the results: \n     \\[\n     192795609452436 + 112639648937984 = 305435258390420\n     \\]\n\nThus, the final answer is:\n\n305435258390420",
+    "correct": true
+  },
+  {
+    "input": "7 * 148537463798 + 5 * 3708304076356",
+    "expected_output": "19581282628366",
+    "actual_output": "19581282628366",
+    "full_output": "To solve the expression \\(7 \\times 148537463798 + 5 \\times 3708304076356\\), we can approach it in steps.\n\nStep 1: Calculate \\(7 \\times 148537463798\\).\n\\[\n7 \\times 148537463798 = 1039762246586\n\\]\n\nStep 2: Calculate \\(5 \\times 3708304076356\\).\n\\[\n5 \\times 3708304076356 = 18541520381780\n\\]\n\nStep 3: Add the results of Step 1 and Step 2.\n\\[\n1039762246586 + 18541520381780 = 19581282628366\n\\]\n\nThe final answer is:\n\\[\n19581282628366\n\\]\n",
+    "correct": true
+  },
+  {
+    "input": "16 * 3807052742992 + 12 * 9215644088531",
+    "expected_output": "171500572950244",
+    "actual_output": "171500572950244",
+    "full_output": "To evaluate the expression \\(16 \\times 3807052742992 + 12 \\times 9215644088531\\), I'll break it down into steps.  \n\nStep 1: Calculate \\(16 \\times 3807052742992\\):\n- Multiply:\n  \\[\n  16 \\times 3807052742992 = 60912843887872\n  \\]\n\nStep 2: Calculate \\(12 \\times 9215644088531\\):\n- Multiply:\n  \\[\n  12 \\times 9215644088531 = 110587729062372\n  \\]\n\nStep 3: Add the results from Step 1 and Step 2:\n- Add:\n  \\[\n  60912843887872 + 110587729062372 = 171500572950244\n  \\]\n\n171500572950244",
+    "correct": true
+  },
+  {
+    "input": "48 * 2624241432191 + 30 * 1409694430410",
+    "expected_output": "168254421657468",
+    "actual_output": "169254421657068",
+    "full_output": "To solve the expression, we can break it into parts and calculate each part step by step.\n\n1. **Expression Breakdown:**\n   The expression is 48 * 2624241432191 + 30 * 1409694430410. It can be broken down into two parts:\n   - Part 1: \\( 48 \\times 2624241432191 \\)\n   - Part 2: \\( 30 \\times 1409694430410 \\)\n   - Finally, add the results of Part 1 and Part 2.\n\n2. **Calculation of Part 1:**\n   \\[\n   48 \\times 2624241432191 = 126963588744768\n   \\]\n\n3. **Calculation of Part 2:**\n   \\[\n   30 \\times 1409694430410 = 42290832912300\n   \\]\n\n4. **Adding Part 1 and Part 2:**\n   \\[\n   126963588744768 + 42290832912300 = 169254421657068\n   \\]\n\nTherefore, the final result of the expression is:\n\n169254421657068",
+    "correct": false
+  },
+  {
+    "input": "18 * 5657514211968 + 78 * 8107699701926",
+    "expected_output": "734235832565652",
+    "actual_output": "734635633350652",
+    "full_output": "Let's break the expression down into steps and solve it step-by-step:\n\n1. Evaluate the first multiplication:\n   - \\( 18 \\times 5657514211968 \\)\n     - Break down the calculation further if needed:\n     - \\((18 \\times 5,657,514,211,968)\\) can be deconstructed using basic multiplication properties.\n\n2. Evaluate the second multiplication:\n   - \\( 78 \\times 8107699701926 \\)\n     - Similarly, break this down if necessary:\n     - \\((78 \\times 8,107,699,701,926)\\).\n\n3. Add the results of these two multiplication operations together to get the final result:\n\nNow let's compute step-by-step:\n\n1. \\( 18 \\times 5,657,514,211,968 = 101,835,255,801,424 \\)\n\n2. \\( 78 \\times 8,107,699,701,926 = 632,800,377,549,228 \\)\n\n3. Add the two results together:\n   \\[\n   101,835,255,801,424 + 632,800,377,549,228 = 734,635,633,350,652\n   \\]\n\nThe final answer is:\n\n734635633350652",
+    "correct": false
+  },
+  {
+    "input": "56 * 5067803037660 + 70 * 5251888539591",
+    "expected_output": "651429167880330",
+    "actual_output": "651429167881330",
+    "full_output": "To evaluate the given arithmetic expression \\(56 \\times 5067803037660 + 70 \\times 5251888539591\\), we will proceed step-by-step, calculating each part of the expression separately before combining them.\n\n1. Compute \\(56 \\times 5067803037660\\):\n   \\[\n   56 \\times 5067803037660 = 283796970109960\n   \\]\n\n2. Compute \\(70 \\times 5251888539591\\):\n   \\[\n   70 \\times 5251888539591 = 367632197771370\n   \\]\n\n3. Add the results from steps 1 and 2:\n   \\[\n   283796970109960 + 367632197771370 = 651429167881330\n   \\]\n\nThus, the final result of the expression is:\n651429167881330",
+    "correct": false
+  },
+  {
+    "input": "54 * 9611618765139 + 24 * 3271656688039",
+    "expected_output": "597547173830442",
+    "actual_output": "597547168830442",
+    "full_output": "Let's compute the expression step-by-step.\n\nThe given arithmetic expression is:  \n54 * 9611618765139 + 24 * 3271656688039\n\nFirst, let's compute each multiplication separately:\n\n1. Calculate \\( 54 \\times 9611618765139 \\)\n\n   \\[\n   54 \\times 9611618765139 = 519027408317506\n   \\]\n\n2. Calculate \\( 24 \\times 3271656688039 \\)\n\n   \\[\n   24 \\times 3271656688039 = 78519760512936\n   \\]\n\nNow, let's add these two results:\n\n\\[\n519027408317506 + 78519760512936 = 597547168830442\n\\]\n\nTherefore, the final answer is:\n\n597547168830442",
+    "correct": false
+  },
+  {
+    "input": "17 * 897422754661 + 9 * 3456309082530",
+    "expected_output": "46362968572007",
+    "actual_output": "46362968572007",
+    "full_output": "Sure, let's tackle the given expression step by step:\n\n1. Expression: \\(17 \\times 897422754661 + 9 \\times 3456309082530\\).\n\n2. Start with the first multiplication:\n   \\[\n   17 \\times 897422754661\n   \\]\n\n3. Compute the first multiplication:\n   - \\(17 \\times 897422754661 = 15256186829237\\).\n\n4. Next, the second multiplication:\n   \\[\n   9 \\times 3456309082530\n   \\]\n\n5. Compute the second multiplication:\n   - \\(9 \\times 3456309082530 = 31106781742770\\).\n\n6. Now sum the two products to get the final answer:\n   \\[\n   15256186829237 + 31106781742770\n   \\]\n\n7. Compute the sum:\n   - \\(15256186829237 + 31106781742770 = 46362968572007\\).\n\nFinal answer:\n46362968572007",
+    "correct": true
+  },
+  {
+    "input": "46 * 8492643542986 + 62 * 122299332899",
+    "expected_output": "398244161617094",
+    "actual_output": "398243962609154",
+    "full_output": "Let's break down the expression and solve it step-by-step.\n\nThe given expression is:\n\\[ 46 \\times 8492643542986 + 62 \\times 122299332899 \\]\n\n**Step 1: Calculate \\( 46 \\times 8492643542986 \\)**\n\nFirst, multiply 46 by 8492643542986:\n\\[ \n46 \\times 8492643542986 = 390660403977356 \n\\]\n\n**Step 2: Calculate \\( 62 \\times 122299332899 \\)**\n\nNow, multiply 62 by 122299332899:\n\\[ \n62 \\times 122299332899 = 7582558631798 \n\\]\n\n**Step 3: Add the two results from steps 1 and 2**\n\nNow, add the results from both multiplications:\n\\[ \n390660403977356 + 7582558631798 = 398243962609154 \n\\]\n\nThe final result of the arithmetic expression is:\n\\[ \n398243962609154 \n\\]\n\nTherefore, the final answer is:\n398243962609154",
+    "correct": false
+  },
+  {
+    "input": "100 * 5015508326459 + 91 * 6153167834646",
+    "expected_output": "1061489105598686",
+    "actual_output": "1062491100600686",
+    "full_output": "To evaluate the given expression, we follow the order of operations, commonly known as PEMDAS (Parentheses, Exponents, Multiplication and Division (from left to right), Addition and Subtraction (from left to right)).\n\nThe expression is:  \n100 * 5015508326459 + 91 * 6153167834646\n\nStep 1: Evaluate each multiplication separately.  \nWe will first calculate \\(100 \\times 5015508326459\\).\n\nThe first part:  \n\\[100 \\times 5015508326459 = 501550832645900\\]\n\nNext, calculate \\(91 \\times 6153167834646\\).\n\nThe second part:  \n\\[91 \\times 6153167834646 = 560940267954786\\]\n\nStep 2: Add the results of the multiplication operations.  \n\\[501550832645900 + 560940267954786\\]\n\nStep 3: Compute the addition.  \n\\[501550832645900 + 560940267954786 = 1062491100600686\\]\n\nThe result of the expression is:\n1062491100600686",
+    "correct": false
+  },
+  {
+    "input": "91 * 5196535324643 + 17 * 8141690888267",
+    "expected_output": "611293459643052",
+    "actual_output": "611300459643052",
+    "full_output": "To find the result of the expression \\(91 \\times 5196535324643 + 17 \\times 8141690888267\\), we'll evaluate it in parts:\n\nFirst, calculate \\(91 \\times 5196535324643\\):\n\n\\[\n91 \\times 5196535324643 = 472891714542513\n\\]\n\nSecond, calculate \\(17 \\times 8141690888267\\):\n\n\\[\n17 \\times 8141690888267 = 138408745100539\n\\]\n\nNow, add the two results together:\n\n\\[\n472891714542513 + 138408745100539 = 611300459643052\n\\]\n\nSo, the result of the entire expression is:\n\n611300459643052",
+    "correct": false
+  },
+  {
+    "input": "0 * 6099524210017 + 61 * 7567466716461",
+    "expected_output": "461615469704121",
+    "actual_output": "461611469703121",
+    "full_output": "To evaluate the expression `0 * 6099524210017 + 61 * 7567466716461`, we need to follow a step-by-step approach using the order of operations (PEMDAS/BODMAS), which gives precedence to multiplication over addition. \n\n1. **Evaluate the multiplication part**:\n\n    a. Compute `0 * 6099524210017`:\n       - Any number multiplied by zero equals zero.\n       - Therefore, `0 * 6099524210017 = 0`.\n    \n    b. Compute `61 * 7567466716461`:\n       - Multiply 61 by 7567466716461.\n       - 61 * 7567466716461 = 461611469703121.\n\n2. **Perform the addition**:\n\n   - Add the results from step 1: `0 + 461611469703121`.\n   - Since zero added to any number gives the number itself, the result is `461611469703121`.\n\nHence, the final answer is:\n\n461611469703121",
+    "correct": false
+  },
+  {
+    "input": "18 * 2330947256284 + 93 * 5329218227301",
+    "expected_output": "537574345752105",
+    "actual_output": "537574345752105",
+    "full_output": "First, evaluate the two multiplication parts of the expression separately:\n\n1. Calculate \\(18 \\times 2330947256284\\):\n   \\[\n   18 \\times 2330947256284 = 41957050613112\n   \\]\n\n2. Calculate \\(93 \\times 5329218227301\\):\n   \\[\n   93 \\times 5329218227301 = 495617295138993\n   \\]\n\nNext, add the results of the two multiplications:\n\n3. Add the results:\n   \\[\n   41957050613112 + 495617295138993 = 537574345752105\n   \\]\n\nTherefore, the evaluated expression is:\n\n537574345752105",
+    "correct": true
+  },
+  {
+    "input": "28 * 2119558615541 + 89 * 5473664568420",
+    "expected_output": "546503787824528",
+    "actual_output": "546503787824528",
+    "full_output": "To evaluate the expression \\( 28 \\times 2119558615541 + 89 \\times 5473664568420 \\), we can break it down into two steps: calculate each multiplication separately and then add the results together.\n\n### Step 1: Calculate \\( 28 \\times 2119558615541 \\)\n\n1. First, using direct multiplication:\n   \\[\n   28 \\times 2119558615541 = 59347641235148\n   \\]\n\n### Step 2: Calculate \\( 89 \\times 5473664568420 \\)\n\n1. Again, using direct multiplication:\n   \\[\n   89 \\times 5473664568420 = 487156146589380\n   \\]\n\n### Step 3: Add the results from Step 1 and Step 2\n\n1. Now add the results from the two multiplications:\n   \\[\n   59347641235148 + 487156146589380 = 546503787824528\n   \\]\n\nThus, the final answer is:\n\n546503787824528",
+    "correct": true
+  },
+  {
+    "input": "15 * 4746765789850 + 21 * 7482806488486",
+    "expected_output": "228340423105956",
+    "actual_output": "228340422105956",
+    "full_output": "To solve the expression `15 * 4746765789850 + 21 * 7482806488486`, we will first evaluate the two multiplications separately and then add the results.\n\nStep 1: Calculate `15 * 4746765789850`.\n\n\\[\n15 \\times 4746765789850 = 71201486847750\n\\]\n\nStep 2: Calculate `21 * 7482806488486`.\n\n\\[\n21 \\times 7482806488486 = 157138935258206\n\\]\n\nStep 3: Add the two results from Steps 1 and 2.\n\n\\[\n71201486847750 + 157138935258206 = 228340422105956\n\\]\n\nThus, the result of the expression is:\n\n228340422105956",
+    "correct": false
+  },
+  {
+    "input": "61 * 3576213290495 + 35 * 970419556511",
+    "expected_output": "252113695198080",
+    "actual_output": "252113695198080",
+    "full_output": "To evaluate the expression \\(61 \\times 3576213290495 + 35 \\times 970419556511\\), we will break it down into steps.\n\n**Step 1:** Calculate \\(61 \\times 3576213290495\\).\n\nFirst, multiply:\n\\[ \n61 \\times 3576213290495 \n\\]\n\nBreaking it down further (if needed):\n- \\(61 \\times 5 = 305\\)\n- \\(61 \\times 9 = 549\\)\n- \\(61 \\times 4 = 244\\)\n- \\(61 \\times 0 = 0\\)\n- \\(61 \\times 2 = 122\\)\n- \\(61 \\times 3 = 183\\)\n\nNow, calculating using a calculator for precision:\n\\[\n61 \\times 3576213290495 = 218149010720195\n\\]\n\n**Step 2:** Calculate \\(35 \\times 970419556511\\).\n\nFirst, multiply:\n\\[ \n35 \\times 970419556511 \n\\]\n\nBreaking it down further (if needed):\n- \\(35 \\times 1 = 35\\)\n- \\(35 \\times 5 = 175\\)\n- \\(35 \\times 6 = 210\\)\n- \\(35 \\times 5 = 175\\)\n- \\(35 \\times 9 = 315\\)\n\nNow, calculating using a calculator for precision:\n\\[\n35 \\times 970419556511 = 33964684477885\n\\]\n\n**Step 3:** Add the results from Step 1 and Step 2.\n\n\\[\n218149010720195 + 33964684477885 = 252113695198080\n\\]\n\nTherefore, the result of the expression \\(61 \\times 3576213290495 + 35 \\times 970419556511\\) is:\n\n252113695198080",
+    "correct": true
+  },
+  {
+    "input": "96 * 2735404584337 + 6 * 1576849881821",
+    "expected_output": "272059939387278",
+    "actual_output": "272059138387278",
+    "full_output": "To evaluate the expression `96 * 2735404584337 + 6 * 1576849881821`, we'll break it down into parts and calculate step-by-step.\n\n**Step 1: Calculate the first multiplication**\n\\[ 96 \\times 2735404584337 \\]\n\n**Step 2: Calculate the second multiplication**\n\\[ 6 \\times 1576849881821 \\]\n\n**Step 3: Add the results from Step 1 and Step 2**\n\nLet's go through these steps:\n\n**Step 1:**\n\\[ 96 \\times 2735404584337 = 262598039096352 \\]\n\n**Step 2:**\n\\[ 6 \\times 1576849881821 = 9461099290926 \\]\n\n**Step 3: Addition**\nAdding the two results from Step 1 and Step 2:\n\\[ 262598039096352 + 9461099290926 = 272059138387278 \\]\n\nThe final answer is:\n272059138387278",
+    "correct": false
+  },
+  {
+    "input": "50 * 1512407323065 + 92 * 5459475462630",
+    "expected_output": "577892108715210",
+    "actual_output": "577892108717210",
+    "full_output": "First, break down the expression into two main parts:\n\n1. \\( 50 \\times 1512407323065 \\)\n2. \\( 92 \\times 5459475462630 \\)\n\nWe'll tackle each part separately:\n\n1. Calculate \\( 50 \\times 1512407323065 \\):\n\n   \\[\n   50 \\times 1512407323065 = 50 \\times (1.512407323065 \\times 10^{12}) = 75.62036615325 \\times 10^{12} = 75620366153250\n   \\]\n\n2. Calculate \\( 92 \\times 5459475462630 \\):\n\n   \\[\n   92 \\times 5459475462630 = 92 \\times (5.45947546263 \\times 10^{12}) = 502271742563960 \\times 10^{10} = 502271742563960\n   \\]\n\nNow, sum the results of these two calculations:\n\n\\[\n75620366153250 + 502271742563960 = 577892108717210\n\\]\n\nSo, the result of \\( 50 \\times 1512407323065 + 92 \\times 5459475462630 \\) is:\n\n577892108717210",
+    "correct": false
+  },
+  {
+    "input": "5 * 9379890333965 + 18 * 459976015145",
+    "expected_output": "55179019942435",
+    "actual_output": "55179019942435",
+    "full_output": "To solve the arithmetic expression, we'll break it down and solve it step by step:\n\nThe given expression is: \n\\[ 5 \\times 9,379,890,333,965 + 18 \\times 459,976,015,145 \\]\n\n**Step 1:** Calculate \\( 5 \\times 9,379,890,333,965 \\)\n\nMultiplying these numbers:\n\\[ 5 \\times 9,379,890,333,965 = 46,899,451,669,825 \\]\n\n**Step 2:** Calculate \\( 18 \\times 459,976,015,145 \\)\n\nMultiplying these numbers:\n\\[ 18 \\times 459,976,015,145 = 8,279,568,272,610 \\]\n\n**Step 3:** Add the results from Step 1 and Step 2:\n\n\\[ 46,899,451,669,825 + 8,279,568,272,610 \\]\n\n\\[ = 55,179,019,942,435 \\]\n\nThe final answer is:\n55179019942435",
+    "correct": true
+  },
+  {
+    "input": "22 * 7431680538343 + 51 * 2817526363498",
+    "expected_output": "307190816381944",
+    "actual_output": "307191816381944",
+    "full_output": "To evaluate the expression \\(22 \\times 7431680538343 + 51 \\times 2817526363498\\), follow the steps below:\n\n### Step 1: Multiply 22 by 7431680538343\nFirst, calculate \\(22 \\times 7431680538343\\).\n\nLet's multiply:\n\n\\[\n22 \\times 7431680538343 = 163497971843546\n\\]\n\n### Step 2: Multiply 51 by 2817526363498\nNext, calculate \\(51 \\times 2817526363498\\).\n\nLet's multiply:\n\n\\[\n51 \\times 2817526363498 = 143693844538398\n\\]\n\n### Step 3: Add the results of the multiplications\nNow, add the two results:\n\n\\[\n163497971843546 + 143693844538398 = 307191816381944\n\\]\n\nSo, the final answer is:\n\n307191816381944",
+    "correct": false
+  },
+  {
+    "input": "63 * 7955500814721 + 84 * 7662968209624",
+    "expected_output": "1144885880935839",
+    "actual_output": "1144884880935839",
+    "full_output": "To evaluate the expression \\( 63 \\times 7955500814721 + 84 \\times 7662968209624 \\), we will proceed step-by-step:\n\n1. **Calculate the first multiplication**:  \n   Multiply 63 by 7955500814721.\n\n   \\[\n   63 \\times 7955500814721 = 501196551327423\n   \\]\n\n2. **Calculate the second multiplication**:  \n   Multiply 84 by 7662968209624.\n\n   \\[\n   84 \\times 7662968209624 = 643688329608416\n   \\]\n\n3. **Add the results from the two multiplications**:\n\n   \\[\n   501196551327423 + 643688329608416 = 1144884880935839\n   \\]\n\nSo, the final answer to the expression \\( 63 \\times 7955500814721 + 84 \\times 7662968209624 \\) is:\n\n1144884880935839",
+    "correct": false
+  },
+  {
+    "input": "4 * 8914847299648 + 65 * 9503245816768",
+    "expected_output": "653370367288512",
+    "actual_output": "653370367288512",
+    "full_output": "To evaluate the expression \\(4 \\times 8914847299648 + 65 \\times 9503245816768\\), we'll break it down into its components.\n\n1. **Calculate \\(4 \\times 8914847299648\\):**\n\n   \\[\n   8914847299648 \\times 4 = 35659389198592\n   \\]\n\n2. **Calculate \\(65 \\times 9503245816768\\):**\n\n   \\[\n   9503245816768 \\times 65 = 617710978089920\n   \\]\n\n3. **Add the two results together:**\n\n   \\[\n   35659389198592 + 617710978089920 = 653370367288512\n   \\]\n\nSo, the final result of the expression is:\n\n653370367288512",
+    "correct": true
+  },
+  {
+    "input": "6 * 5039111732570 + 73 * 4913267253821",
+    "expected_output": "388903179924353",
+    "actual_output": "388903181926353",
+    "full_output": "To solve the arithmetic expression `6 * 5039111732570 + 73 * 4913267253821`, we can break it down into two main steps: calculating each multiplication separately and then adding the results.\n\nStep 1: Calculate the first multiplication:\n\\[ 6 \\times 5039111732570 \\]\n\nStep 2: Calculate the second multiplication:\n\\[ 73 \\times 4913267253821 \\]\n\nStep 3: Add the results from Step 1 and Step 2.\n\nLet’s proceed with these steps:\n\n### Step 1: Calculate \\( 6 \\times 5039111732570 \\)\n\n\\[ 6 \\times 5039111732570 = 30234670395420 \\]\n\n### Step 2: Calculate \\( 73 \\times 4913267253821 \\)\n\n\\[ 73 \\times 4913267253821 = 358668511530933 \\]\n\n### Step 3: Add the results from Step 1 and Step 2\n\n\\[ 30234670395420 + 358668511530933 = 388903181926353 \\]\n\nThe final result of the original expression is:\n\n388903181926353",
+    "correct": false
+  },
+  {
+    "input": "85 * 335181537874 + 68 * 448897316577",
+    "expected_output": "59015448246526",
+    "actual_output": "59015448446626",
+    "full_output": "To evaluate the expression `85 * 335181537874 + 68 * 448897316577`, follow these steps:\n\n1. **Break down the expression into two separate multiplications:**\n   - 85 multiplied by 335181537874\n   - 68 multiplied by 448897316577\n\n2. **Calculate the first multiplication:**\n\n   \\( 85 \\times 335181537874 \\)\n\n   - 85 * 335181537874 = 28490430719390  \n\n3. **Calculate the second multiplication:**\n\n   \\( 68 \\times 448897316577 \\)\n\n   - 68 * 448897316577 = 30525017727236 \n\n4. **Add the results of these two multiplications together:**\n\n   28490430719390 + 30525017727236 = 59015448446626\n\nThe final answer is:\n\n59015448446626",
+    "correct": false
+  },
+  {
+    "input": "45 * 1464312295324 + 92 * 5652042153327",
+    "expected_output": "585881931395664",
+    "actual_output": "586108482268664",
+    "full_output": "To evaluate the given expression `45 * 1464312295324 + 92 * 5652042153327`, we will break it down into steps, calculating each multiplication separately before adding the results.\n\nStep 1: Calculate the first multiplication `45 * 1464312295324`.\n\nTo do this, multiply 1464312295324 by 45:\n\n\\( 1464312295324 \\times 45 \\)\n\nLet's perform the multiplication:\n\n```\n      1464312295324 \n×             45\n______________________\n        7315061476620   (this is 1464312295324 × 5)\n+ 65894053389580    (this is 1464312295324 × 40)\n______________________\n  65894053416680    (adding results, shifted accordingly)\n```\n\nSo, \\( 45 \\times 1464312295324 = 65894053389580 \\).\n\nStep 2: Calculate the second multiplication `92 * 5652042153327`.\n\nTo do this, multiply 5652042153327 by 92:\n\n\\( 5652042153327 \\times 92 \\)\n\nLet's perform the multiplication:\n\n```\n      5652042153327 \n×             92\n________________________\n      50868388079943   (this is 5652042153327 × 2)\n+ 508683880799410   (this is 5652042153327 × 90)\n________________________\n  520214428879084   (adding results, shifted accordingly)\n```\n\nSo, \\( 92 \\times 5652042153327 = 520214428879084 \\).\n\nStep 3: Add the two results obtained from Step 1 and Step 2.\n\nNow, add together 65894053389580 and 520214428879084:\n\n```\n65894053389580 + 520214428879084 = 586108482268664\n```\n\nTherefore, the result of the entire expression `45 * 1464312295324 + 92 * 5652042153327` is:\n\n586108482268664",
+    "correct": false
+  },
+  {
+    "input": "29 * 8772362927753 + 23 * 1970902452700",
+    "expected_output": "299729281316937",
+    "actual_output": "299729302316937",
+    "full_output": "To solve the given arithmetic expression, first evaluate each term, then add the results:\n\n1. **Calculate the first term:**\n   - Multiply 29 by 8772362927753.\n   \n   \\[\n   29 \\times 8772362927753 = 254398545904837\n   \\]\n\n2. **Calculate the second term:**\n   - Multiply 23 by 1970902452700.\n\n   \\[\n   23 \\times 1970902452700 = 45330756412100\n   \\]\n\n3. **Add the results of the two terms:**\n\n   \\[\n   254398545904837 + 45330756412100 = 299729302316937\n   \\]\n\nThe final answer for the expression \\(29 \\times 8772362927753 + 23 \\times 1970902452700\\) is:\n\n299729302316937",
+    "correct": false
+  },
+  {
+    "input": "58 * 9814001823331 + 68 * 2728402414765",
+    "expected_output": "754743469957218",
+    "actual_output": "754743469957218",
+    "full_output": "To evaluate the expression, we'll calculate each part individually and then combine the results.\n\n1. Calculate \\( 58 \\times 9814001823331 \\):\n\n   - First, multiply 58 by 9814001823331:\n     \\[\n     58 \\times 9814001823331 = 569212105753198\n     \\]\n\n2. Calculate \\( 68 \\times 2728402414765 \\):\n\n   - First, multiply 68 by 2728402414765:\n     \\[\n     68 \\times 2728402414765 = 185531364204020\n     \\]\n\n3. Add the results from the two calculations above:\n\n   - Add 569212105753198 to 185531364204020:\n     \\[\n     569212105753198 + 185531364204020 = 754743469957218\n     \\]\n\nTherefore, the final result of the expression \\( 58 \\times 9814001823331 + 68 \\times 2728402414765 \\) is:\n\n754743469957218",
+    "correct": true
+  },
+  {
+    "input": "66 * 9783835301772 + 24 * 6072893148482",
+    "expected_output": "791482565480520",
+    "actual_output": "791482465480660",
+    "full_output": "To evaluate the arithmetic expression `66 * 9783835301772 + 24 * 6072893148482`, we will follow a step-by-step approach:\n\n1. **Calculate** `66 * 9783835301772`:\n   - Break it down:\n     - \\(66 \\times (9000000000000 + 783835301772)\\)\n     - \\(66 \\times 9000000000000 = 594000000000000\\)\n     - \\(66 \\times 783835301772 = 51733029917092\\)\n     - Sum these results: \\(594000000000000 + 51733029917092 = 645733029917092\\)\n   \n2. **Calculate** `24 * 6072893148482`:\n   - Break it down:\n     - \\(24 \\times 6072893148482\\)\n     - Do it in parts: \\(24 \\times (6000000000000 + 72893148482)\\)\n     - \\(24 \\times 6000000000000 = 144000000000000\\)\n     - \\(24 \\times 72893148482 = 1749435563568\\)\n     - Sum these results: \\(144000000000000 + 1749435563568 = 145749435563568\\)\n\n3. **Add the two results** from the above calculations:\n   - Add \\(645733029917092 + 145749435563568\\)\n   - Let's break it down with horizontal addition:\n     - 645733029917092\n     - +145749435563568\n     - = 791482465480660\n\nThe final answer is:\n\n791482465480660",
+    "correct": false
+  },
+  {
+    "input": "57 * 9634872262437 + 99 * 3589052397910",
+    "expected_output": "904503906351999",
+    "actual_output": "904503907353999",
+    "full_output": "To solve the arithmetic expression \\( 57 \\times 9634872262437 + 99 \\times 3589052397910 \\), we will tackle each multiplication individually first, and then sum the results.\n\nStep 1: Calculate \\( 57 \\times 9634872262437 \\).\n\nStep 2: Calculate \\( 99 \\times 3589052397910 \\).\n\nStep 3: Add the results of Step 1 and Step 2 to get the final answer.\n\n---\n\n**Step-by-step Calculation:**\n\nStep 1:\n\\[ 57 \\times 9634872262437 = 549187719959909 \\]\n\nStep 2:\n\\[ 99 \\times 3589052397910 = 355316187393090 \\]\n\nStep 3: Add the results from Step 1 and Step 2:\n\\[ 549187719959909 + 355316187393090 = 904503907353999 \\]\n\n---\n\nThe final answer is:\n904503907353999",
+    "correct": false
+  },
+  {
+    "input": "82 * 1447902486437 + 99 * 3333547957879",
+    "expected_output": "448749251717855",
+    "actual_output": "448752251723855",
+    "full_output": "Let's evaluate the expression step-by-step:\n\n1. **Multiply 82 by 1447902486437:**\n   \\[\n   82 \\times 1447902486437 = 118731003893834\n   \\]\n\n2. **Multiply 99 by 3333547957879:**\n   \\[\n   99 \\times 3333547957879 = 330021247830021\n   \\]\n\n3. **Add the results from step 1 and step 2:**\n   \\[\n   118731003893834 + 330021247830021 = 448752251723855\n   \\]\n\nThe final answer is:\n448752251723855",
+    "correct": false
+  },
+  {
+    "input": "82 * 3065204990389 + 64 * 1435562353089",
+    "expected_output": "343222799809594",
+    "actual_output": "343222699816834",
+    "full_output": "To solve the given arithmetic expression:  \n82 * 3065204990389 + 64 * 1435562353089  \n\n**Step 1: Calculate 82 * 3065204990389**  \n82 * 3065204990389 = 251346809211938  \n\n**Step 2: Calculate 64 * 1435562353089**  \n64 * 1435562353089 = 91875890604896  \n\n**Step 3: Add the two results from Step 1 and Step 2**  \n251346809211938 + 91875890604896  \n\n**Step 4: Perform the addition**  \n251346809211938 + 91875890604896 = 343222699816834  \n\nThe final answer is:  \n343222699816834",
+    "correct": false
+  },
+  {
+    "input": "26 * 6465084457780 + 96 * 2595240027863",
+    "expected_output": "417235238577128",
+    "actual_output": "417235239576128",
+    "full_output": "To evaluate the expression step-by-step:\n\nExpression: 26 * 6465084457780 + 96 * 2595240027863\n\nStep 1: Evaluate the first term: 26 * 6465084457780\n\n\\[\n26 \\times 6465084457780 = 168092196901280\n\\]\n\nStep 2: Evaluate the second term: 96 * 2595240027863\n\n\\[\n96 \\times 2595240027863 = 249143042674848\n\\]\n\nStep 3: Add the results of Step 1 and Step 2:\n\n\\[\n168092196901280 + 249143042674848 = 417235239576128\n\\]\n\nThe final answer is:\n\n417235239576128",
+    "correct": false
+  },
+  {
+    "input": "1 * 2869681934816 + 45 * 9767980297306",
+    "expected_output": "442428795313586",
+    "actual_output": "442428795313586",
+    "full_output": "To evaluate the expression \\(1 * 2869681934816 + 45 * 9767980297306\\), we will follow step-by-step operations focusing on basic arithmetic principles.\n\n1. **Evaluate the multiplication parts**:\n   - First, calculate: \\(1 \\times 2869681934816\\)\n     - This equals \\(2869681934816\\), since any number multiplied by 1 is the number itself.\n\n   - Next, calculate: \\(45 \\times 9767980297306\\)\n     - To do this, multiply \\(45\\) by \\(9767980297306\\).\n     - \\(45 \\times 9767980297306 = 439559113378770\\)\n\n2. **Perform the addition**:\n   - Now add the results from the two multiplications.\n   - Sum: \\(2869681934816 + 439559113378770\\)\n\n3. **Calculate the final sum**:\n   - Adding \\(2869681934816\\) and \\(439559113378770\\) gives:\n   \\[\n   2869681934816 + 439559113378770 = 442428795313586\n   \\]\n\nThe final answer after evaluating the expression step by step is \\(442428795313586\\).\n\n442428795313586",
+    "correct": true
+  },
+  {
+    "input": "15 * 9354808875201 + 24 * 8422619478652",
+    "expected_output": "342465000615663",
+    "actual_output": "342465000615663",
+    "full_output": "To solve the expression \\( 15 \\times 9354808875201 + 24 \\times 8422619478652 \\), follow these steps:\n\n1. **Calculate the first part of the expression:**\n\n   \\[\n   15 \\times 9354808875201 = 140322133128015\n   \\]\n\n2. **Calculate the second part of the expression:**\n\n   \\[\n   24 \\times 8422619478652 = 202142867487648\n   \\]\n\n3. **Add the results from the two calculations:**\n\n   \\[\n   140322133128015 + 202142867487648 = 342465000615663\n   \\]\n\nThus, the final answer is:\n\n342465000615663",
+    "correct": true
+  },
+  {
+    "input": "33 * 4059242009882 + 58 * 1652670596802",
+    "expected_output": "229809880940622",
+    "actual_output": "229809880940622",
+    "full_output": "To evaluate the expression \\( 33 \\times 4059242009882 + 58 \\times 1652670596802 \\), we will follow these step-by-step calculations:\n\n1. First, calculate \\( 33 \\times 4059242009882 \\):\n\n   \\[\n   33 \\times 4059242009882 = 133954986326106\n   \\]\n\n2. Next, calculate \\( 58 \\times 1652670596802 \\):\n\n   \\[\n   58 \\times 1652670596802 = 95854894614516\n   \\]\n\n3. Finally, add the results of the above two calculations:\n\n   \\[\n   133954986326106 + 95854894614516 = 229809880940622\n   \\]\n\nThe final result of the given arithmetic expression is:\n\n229809880940622",
+    "correct": true
+  },
+  {
+    "input": "75 * 435909787904 + 70 * 7782930535378",
+    "expected_output": "577498371569260",
+    "actual_output": "577510871569260",
+    "full_output": "Let's solve the expression step by step.\n\nThe expression given is: \n\n75 * 435909787904 + 70 * 7782930535378\n\nStep 1: Calculate the first part of the expression: 75 * 435909787904\n\nStep 2: Calculate the second part of the expression: 70 * 7782930535378\n\nStep 3: Add the results of Step 1 and Step 2 to get the final answer.\n\nStep 1:\n75 * 435909787904 = 32705734092800\n\nStep 2:\n70 * 7782930535378 = 544805137476460\n\nStep 3:\n32705734092800 + 544805137476460 = 577510871569260\n\nThe final answer is:\n577510871569260",
+    "correct": false
+  },
+  {
+    "input": "60 * 6657919520215 + 79 * 5022447389799",
+    "expected_output": "796248515007021",
+    "actual_output": "797247514007121",
+    "full_output": "Let's break down the expression and tackle it step-by-step:\n\n1. **Expression:**  \n   \\( 60 \\times 6657919520215 + 79 \\times 5022447389799 \\)\n\n2. **First Multiplication:**  \n   Compute \\( 60 \\times 6657919520215 \\).\n\n   \\[\n   60 \\times 6657919520215 = 399475171212900\n   \\]\n\n3. **Second Multiplication:**  \n   Compute \\( 79 \\times 5022447389799 \\).\n\n   \\[\n   79 \\times 5022447389799 = 397772342794221\n   \\]\n\n4. **Addition:**  \n   Add the results of the two products.\n\n   \\[\n   399475171212900 + 397772342794221 = 797247514007121\n   \\]\n\nSo, the final answer is:  \n797247514007121",
+    "correct": false
+  },
+  {
+    "input": "10 * 7331102576148 + 51 * 3164711182860",
+    "expected_output": "234711296087340",
+    "actual_output": "234711296088340",
+    "full_output": "To evaluate the given expression, we will follow the order of operations, which is to evaluate multiplication and division from left to right, and then addition and subtraction from left to right.\n\nThe expression is: \n\\[ 10 \\times 7331102576148 + 51 \\times 3164711182860 \\]\n\nStep 1: Evaluate the multiplication operations first.\n\n1. \\( 10 \\times 7331102576148 \\)\n\n   - Multiply: \\( 10 \\times 7331102576148 = 73311025761480 \\)\n\n2. \\( 51 \\times 3164711182860 \\)\n\n   - Multiply: \\( 51 \\times 3164711182860 = 161400270326860 \\)\n\nStep 2: Evaluate the addition of the two products from step 1.\n   \n   - Add: \\( 73311025761480 + 161400270326860 = 234711296088340 \\)\n\nThe final result of the expression is:\n\\[ 234711296088340 \\]\n\n234711296088340",
+    "correct": false
+  },
+  {
+    "input": "20 * 9451375778867 + 68 * 3772705161414",
+    "expected_output": "445571466553492",
+    "actual_output": "445571466556492",
+    "full_output": "To evaluate the expression \\(20 \\times 9451375778867 + 68 \\times 3772705161414\\), we will proceed step by step.\n\nStep 1: Calculate \\(20 \\times 9451375778867\\).\n\n\\[\n20 \\times 9451375778867 = 189027515577340\n\\]\n\nStep 2: Calculate \\(68 \\times 3772705161414\\).\n\n\\[\n68 \\times 3772705161414 = 256543950979152\n\\]\n\nStep 3: Add the results from Step 1 and Step 2.\n\n\\[\n189027515577340 + 256543950979152 = 445571466556492\n\\]\n\nThe final answer is:\n445571466556492",
+    "correct": false
+  },
+  {
+    "input": "15 * 2418285794553 + 58 * 3070130678915",
+    "expected_output": "214341866295365",
+    "actual_output": "214341866294375",
+    "full_output": "To evaluate the given arithmetic expression:\n\n1. Break down the expression into two parts:\n   \\[\n   \\text{Part 1:} \\quad 15 \\times 2418285794553\n   \\]\n   \\[\n   \\text{Part 2:} \\quad 58 \\times 3070130678915 \n   \\]\n\n2. Calculate Part 1:\n   \\[\n   15 \\times 2418285794553 = 36274286918305\n   \\]\n\n3. Calculate Part 2:\n   \\[\n   58 \\times 3070130678915 = 178067579376070\n   \\]\n\n4. Add the results of Part 1 and Part 2:\n   \\[\n   36274286918305 + 178067579376070 = 214341866294375\n   \\]\n\nThus, the answer to the expression is:\n\\[\n\\boxed{214341866294375}\n\\]",
+    "correct": false
+  },
+  {
+    "input": "66 * 704368472229 + 32 * 3544098195210",
+    "expected_output": "159899461413834",
+    "actual_output": "159899361413834",
+    "full_output": "To evaluate the given arithmetic expression step-by-step, follow these instructions:\n\n1. First, let's resolve each multiplication operation:\n   - Calculate \\( 66 \\times 704368472229 \\).\n   - Calculate \\( 32 \\times 3544098195210 \\).\n\n2. Start by calculating \\( 66 \\times 704368472229 \\):\n   \\[\n   66 \\times 704368472229 = 46488219167114\n   \\]\n\n3. Next, calculate \\( 32 \\times 3544098195210 \\):\n   \\[\n   32 \\times 3544098195210 = 113411142246720\n   \\]\n\n4. Now, sum the results from the multiplication operations:\n   \\[\n   46488219167114 + 113411142246720 = 159899361413834\n   \\]\n\n159899361413834",
+    "correct": false
+  },
+  {
+    "input": "18 * 7526546895057 + 0 * 3888477397746",
+    "expected_output": "135477844111026",
+    "actual_output": "135478844111026",
+    "full_output": "To evaluate the expression `18 * 7526546895057 + 0 * 3888477397746`, we will break it down step-by-step:\n\n1. **Zero Multiplication:**  \n   First, evaluate the expression `0 * 3888477397746`.  \n   Any number multiplied by zero is zero. Therefore:  \n   ```\n   0 * 3888477397746 = 0\n   ```\n\n2. **Original Expression:**  \n   The original expression can now be simplified using the result of the zero multiplication:  \n   ```\n   18 * 7526546895057 + 0\n   ```\n\n3. **Multiply 18 by 7526546895057:**  \n   Now we need to multiply 18 by 7526546895057.  \n   ```\n   18 * 7526546895057\n   ```\n\n   Let's perform this multiplication:\n\n   First, multiply 18 by 7:\n   - 18 * 7 = 126\n\n   Now, continue multiplying 18 by each digit from the right in `7526546895057`:\n   - 18 * 5 = 90\n   - 18 * 0 = 0\n   - 18 * 5 = 90\n   - 18 * 9 = 162\n   - 18 * 8 = 144\n   - 18 * 6 = 108\n   - 18 * 4 = 72\n   - 18 * 5 = 90\n   - 18 * 2 = 36\n   - 18 * 6 = 108\n   - 18 * 7 = 126\n   - 18 * 5 = 90\n\n   Organize the totals by adding the partial products appropriately.\n\nUpon properly multiplying each digit and adding them, the final multiplication of 18 * 7526546895057 can be calculated as follows:\n   ```\n   135478844111026\n   ```\n\n4. **Addition Operation**  \n   Now add the result of `18 * 7526546895057` and `0`:\n   ```\n   135478844111026 + 0 = 135478844111026\n   ```\n\nThus, the final result of evaluating the entire expression is:\n\n135478844111026",
+    "correct": false
+  },
+  {
+    "input": "37 * 7156819193065 + 38 * 661501832299",
+    "expected_output": "289939379770767",
+    "actual_output": "289938178771767",
+    "full_output": "To evaluate the arithmetic expression `37 * 7156819193065 + 38 * 661501832299`, we'll follow the order of operations, often remembered by the acronym PEMDAS (Parentheses, Exponents, Multiplication and Division, Addition and Subtraction). In this expression, we only have multiplication and addition.\n\nStep 1: Calculate the multiplication parts first.\n\n1. Calculate `37 * 7156819193065`.\n\n   37 multiplied by 7156819193065 equals:  \n   \\(37 \\times 7156819193065 = 264801109144405\\)\n\n2. Calculate `38 * 661501832299`.\n\n   38 multiplied by 661501832299 equals:  \n   \\(38 \\times 661501832299 = 25137069627362\\)\n\nStep 2: Add the results from the multiplication.\n\nNow add the two results we obtained:  \n\\(264801109144405 + 25137069627362 = 289938178771767\\)\n\nSo, the final answer is:\n\n289938178771767",
+    "correct": false
+  },
+  {
+    "input": "74 * 1558467593964 + 17 * 6453163835019",
+    "expected_output": "225030387148659",
+    "actual_output": "225029389146659",
+    "full_output": "To solve the expression, we will first break it down into two separate multiplication operations and a final addition.\n\n1. **Calculate the first multiplication:**\n\n   \\( 74 \\times 1558467593964 \\)\n\n2. **Calculate the second multiplication:**\n\n   \\( 17 \\times 6453163835019 \\)\n\n3. **Add the results of both multiplications together to get the final result.**\n\nLet's go through these steps:\n\n1. **First multiplication:**\n\n   \\( 74 \\times 1558467593964 = 115326604951336 \\)\n\n2. **Second multiplication:**\n\n   \\( 17 \\times 6453163835019 = 109702784195323 \\)\n\n3. **Add the results:**\n\n   \\( 115326604951336 + 109702784195323 = 225029389146659 \\)\n\nHence, the final result of the arithmetic expression is:\n\n225029389146659",
+    "correct": false
+  },
+  {
+    "input": "84 * 1435760414359 + 81 * 5819324268181",
+    "expected_output": "591969140528817",
+    "actual_output": "591971143525817",
+    "full_output": "To evaluate the expression \\(84 \\times 1435760414359 + 81 \\times 5819324268181\\), we will perform the multiplication operations first and then add the results.\n\n**Step 1:** Calculate \\(84 \\times 1435760414359\\).\n\n- Break down the multiplication:\n  \\[\n  84 \\times 1435760414359 = 1435760414359 \\times 84\n  \\]\n\nUsing a calculator or manual multiplication:\n  \\[\n  = 120604876805156\n  \\]\n\n**Step 2:** Calculate \\(81 \\times 5819324268181\\).\n\n- Break down the multiplication:\n  \\[\n  81 \\times 5819324268181 = 5819324268181 \\times 81\n  \\]\n\nUsing a calculator or manual multiplication:\n  \\[\n  = 471366266720661\n  \\]\n\n**Step 3:** Add the results of the two multiplications.\n\n\\[\n120604876805156 + 471366266720661\n\\]\n\n**Step 4:** Perform the addition.\n\n- Adding:\n  \\[\n  = 591971143525817\n  \\]\n\nThus, the evaluated expression is:\n\n591971143525817",
+    "correct": false
+  },
+  {
+    "input": "22 * 5018784229809 + 91 * 7658576211505",
+    "expected_output": "807343688302753",
+    "actual_output": "807141886802753",
+    "full_output": "Sure! Let's break down the problem step-by-step.\n\nThe expression given is:\n\n\\[ 22 \\times 5018784229809 + 91 \\times 7658576211505 \\]\n\nFirst, calculate \\( 22 \\times 5018784229809 \\).\n\nStep 1: \n\\[ 22 \\times 5018784229809 = 110412452555798 \\]\n\nNext, calculate \\( 91 \\times 7658576211505 \\).\n\nStep 2:\n\\[ 91 \\times 7658576211505 = 696729434246955 \\]\n\nFinally, add the results of the two multiplications:\n\nStep 3:\n\\[ 110412452555798 + 696729434246955 = 807141886802753 \\]\n\nSo, the final answer is:\n\n807141886802753",
+    "correct": false
+  },
+  {
+    "input": "15 * 9667900651086 + 78 * 9300402282163",
+    "expected_output": "870449887775004",
+    "actual_output": "740933227586579",
+    "full_output": "To solve the given arithmetic expression, we will follow the order of operations: first perform the multiplications, and then add the results.\n\n1. First, calculate the product of 15 and 9667900651086:\n\n   \\( 15 \\times 9667900651086 \\)\n\n   To multiply these, we will do it step-by-step:\n   - Multiply 15 by 6 (last digit of the second number):\n\n     \\( 15 \\times 6 = 90 \\)\n\n   - Multiply 15 by 80 (next two digits):\n\n     \\( 15 \\times 80 = 1200 \\)\n     \n   - Multiply 15 by 10000 (next four digits):\n\n     \\( 15 \\times 10000 = 150000 \\)\n\n   - Multiply 15 by 900000:\n\n     \\( 15 \\times 900000 = 13500000 \\)\n\n   - Multiply 15 by 6 billion (next digit):\n\n     \\( 15 \\times 6000000000 = 90000000000 \\)\n\n   - Combine these partial results to get the total:\n\n     \\( 145018509766290 \\)\n\n2. Next, calculate the product of 78 and 9300402282163:\n\n   \\( 78 \\times 9300402282163 \\)\n\n   Similarly:\n   - Multiply 78 by 3 (last digit of the second number):\n\n     \\( 78 \\times 3 = 234 \\)\n\n   - Multiply 78 by 60 (next two digits):\n\n     \\( 78 \\times 60 = 4680 \\)\n\n   - Multiply 78 by 2100 (next four digits):\n\n     \\( 78 \\times 2100 = 163800 \\)\n\n   - Multiply 78 by 800,000,000:\n   \n     \\( 78 \\times 8 \\times 100000000 = 624000000 \\)\n\n   - Multiply 78 by 9 trillion (leading digit):\n\n     \\( 78 \\times 9 \\times 1000000000000 = 70200000000000 \\)\n\n   - Combine these partial results to get the total:\n\n     \\( 725431377009714 \\)\n\n3. Lastly, add the two results together:\n\n   \\[\n   145018509766290 + 725431377009714 = 740933227586579\n   \\]\n\nThe final result of the arithmetic expression is:\n\n740933227586579",
+    "correct": false
+  },
+  {
+    "input": "65 * 620872004822 + 46 * 4708029721804",
+    "expected_output": "256926047516414",
+    "actual_output": "256926047514414",
+    "full_output": "To evaluate the expression `65 * 620872004822 + 46 * 4708029721804`, we'll break it down into smaller parts and solve it step-by-step.\n\nStep 1: Calculate the first multiplication \\( 65 \\times 620872004822 \\).\n\n\\[ 65 \\times 620872004822 = 40356680313430 \\]\n\nStep 2: Calculate the second multiplication \\( 46 \\times 4708029721804 \\).\n\n\\[ 46 \\times 4708029721804 = 216569367200984 \\]\n\nStep 3: Add the results of the two multiplications together.\n\n\\[ 40356680313430 + 216569367200984 = 256926047514414 \\]\n\nThus, the final result of the expression is:\n\n256926047514414",
+    "correct": false
+  },
+  {
+    "input": "98 * 8564333266266 + 33 * 6223428294684",
+    "expected_output": "1044677793818640",
+    "actual_output": "1044677793818640",
+    "full_output": "To evaluate the expression \\(98 \\times 8564333266266 + 33 \\times 6223428294684\\), we will perform the multiplications first and then add the results.\n\n1. Calculate \\(98 \\times 8564333266266\\):\n\n   - Break it down into simpler steps:\n       - \\(8564333266266 \\times 100 = 856433326626600\\)\n       - \\(8564333266266 \\times 2 = 17128666532532\\)\n   - Subtract \\(8564333266266 \\times 2\\) from 100 times its multiple (since 100 - 2 = 98):\n     \\[\n     856433326626600 - 17128666532532 = 839304660094068\n     \\]\n\n2. Calculate \\(33 \\times 6223428294684\\):\n\n   - Break it down into simpler steps:\n       - \\(6223428294684 \\times 30 = 186702848840520\\)\n       - \\(6223428294684 \\times 3 = 18670284884052\\)\n   - Add these two results:\n     \\[\n     186702848840520 + 18670284884052 = 205373133724572\n     \\]\n\n3. Add the two results:\n\n   \\[\n   839304660094068 + 205373133724572 = 1044677793818640\n   \\]\n\n1044677793818640",
+    "correct": true
+  },
+  {
+    "input": "68 * 7103317068887 + 45 * 9946505712700",
+    "expected_output": "930618317755816",
+    "actual_output": "930618316755816",
+    "full_output": "Let's break down the evaluation of the expression step by step.\n\nThe expression given is:\n\\[ 68 \\times 7103317068887 + 45 \\times 9946505712700 \\]\n\n1. First, calculate \\( 68 \\times 7103317068887 \\).\n\n   \\[\n   68 \\times 7103317068887 = 483025560684316\n   \\]\n\n2. Next, calculate \\( 45 \\times 9946505712700 \\).\n\n   \\[\n   45 \\times 9946505712700 = 447592756071500\n   \\]\n\n3. Add the two results from above.\n   \n   \\[\n   483025560684316 + 447592756071500 = 930618316755816\n   \\]\n\nThe final result of the expression is:\n\n930618316755816",
+    "correct": false
+  },
+  {
+    "input": "46 * 8372313383072 + 71 * 3686205777854",
+    "expected_output": "646847025848946",
+    "actual_output": "645846025857066",
+    "full_output": "First, we break down the expression into two separate multiplications and then add the results:\n\n1. Calculate \\(46 \\times 8372313383072\\):\n   - Multiply 6 by each digit of 8372313383072:\n     - \\(6 \\times 2 = 12\\) (write 2, carry 1)\n     - \\(6 \\times 7 = 42\\), plus 1 = 43 (write 3, carry 4)\n     - \\(6 \\times 0 = 0\\), plus 4 = 4 (write 4, carry 0)\n     - \\(6 \\times 3 = 18\\) (write 8, carry 1)\n     - \\(6 \\times 8 = 48\\), plus 1 = 49 (write 9, carry 4)\n     - \\(6 \\times 3 = 18\\), plus 4 = 22 (write 2, carry 2)\n     - \\(6 \\times 1 = 6\\), plus 2 = 8 (write 8, carry 0)\n     - \\(6 \\times 3 = 18\\) (write 8, carry 1)\n     - \\(6 \\times 7 = 42\\), plus 1 = 43 (write 3, carry 4)\n     - \\(6 \\times 2 = 12\\), plus 4 = 16 (write 6, carry 1)\n     - \\(6 \\times 3 = 18\\), plus 1 = 19 (write 9, carry 1)\n     - \\(6 \\times 8 = 48\\), plus 1 = 49 (write 9, carry 4)\n\n   Result of \\(6 \\times 8372313383072 = 50233880298432\\).\n\n   - Multiply 4 by each digit of 8372313383072 (shift results by one digit to the left):\n     - \\(4 \\times 2 = 8\\) \n     - \\(4 \\times 7 = 28\\) (write 8, carry 2)\n     - \\(4 \\times 0 = 0\\), plus 2 = 2 (write 2, carry 0)\n     - \\(4 \\times 3 = 12\\) (write 2, carry 1)\n     - \\(4 \\times 8 = 32\\), plus 1 = 33 (write 3, carry 3)\n     - \\(4 \\times 3 = 12\\), plus 3 = 15 (write 5, carry 1)\n     - \\(4 \\times 1 = 4\\), plus 1 = 5 (write 5, carry 0)\n     - \\(4 \\times 3 = 12\\) (write 2, carry 1)\n     - \\(4 \\times 7 = 28\\), plus 1 = 29 (write 9, carry 2)\n     - \\(4 \\times 2 = 8\\), plus 2 = 10 (write 0, carry 1)\n     - \\(4 \\times 3 = 12\\), plus 1 = 13 (write 3, carry 1)\n     - \\(4 \\times 8 = 32\\), plus 1 = 33 (write 3, carry 3)\n\n   - Shift one position to get \\(4 \\times 8372313383072 = 334892535322880\\).\n\n   Final result for first multiplication (add the two partial products):\n   \\(50233880298432 + 334892535322880 = 384126415630432\\).\n\n2. Calculate \\(71 \\times 3686205777854\\):\n   - Multiply 1 by each digit of 3686205777854:\n     - (same as the original digits since multiplying by 1)\n\n   - Multiply 7 by each digit of 3686205777854 (shift results by one digit to the left):\n     - Add these partial products similarly to see the pattern in resulting addition.\n\n   After adding all individual digits with proper carry and shifts, the calculation:\n   \\(71 \\times 3686205777854 = 261719610226634\\).\n\nFinally, add the two products:\n\\[384126415630432 + 261719610226634 = 645846025857066\\].\n\n645846025857066",
+    "correct": false
+  },
+  {
+    "input": "42 * 3487214056327 + 87 * 6267957492298",
+    "expected_output": "691775292195660",
+    "actual_output": "691772292199660",
+    "full_output": "Let's break down the arithmetic expression step-by-step:\n\nExpression: \\( 42 \\times 3487214056327 + 87 \\times 6267957492298 \\)\n\n### Step 1: Perform the multiplication \n\n#### First multiplication:\n\\[ 42 \\times 3487214056327 \\]\n\nBreaking it down:\n\\[ 42 \\times 3487214056327 = 146460990364734 \\]\n\n#### Second multiplication:\n\\[ 87 \\times 6267957492298 \\]\n\nBreaking it down:\n\\[ 87 \\times 6267957492298 = 545311301834926 \\]\n\n### Step 2: Add the results of the multiplications\n\n\\[ 146460990364734 + 545311301834926 \\]\n\n\\[ = 691772292199660 \\]\n\nSo, the final answer is:\n691772292199660",
+    "correct": false
+  },
+  {
+    "input": "84 * 1958956941658 + 48 * 975875879098",
+    "expected_output": "211394425295976",
+    "actual_output": "211394423375976",
+    "full_output": "To evaluate the expression `84 * 1958956941658 + 48 * 975875879098`, let's break it down into steps:\n\n1. **First Multiplication**: Calculate `84 * 1958956941658`.\n   - Step 1: Multiply 84 by 8, the last digit of 1958956941658.\n   - Step 2: Proceed with multiplying 84 by each digit of 1958956941658 from right to left and keep adding any extra digits to the next calculation.\n   - Step 3: Multiply 84 by the entire number to get the result: `164552381099272`.\n\n2. **Second Multiplication**: Calculate `48 * 975875879098`.\n   - Step 4: Multiply 48 by 8, the last digit of 975875879098.\n   - Step 5: Multiply 48 by the rest of the digits, repeating the process of multiplication followed by carrying and addition.\n   - Step 6: Multiply 48 by the entire number to get the second multiplication result: `46842042276704`.\n\n3. **Addition**: Add the results of the two multiplications.\n   - Step 7: Add `164552381099272` and `46842042276704` together to get the final result.\n\nNow, add the two results:\n\n\\[ \n164552381099272 + 46842042276704 = 211394423375976 \n\\]\n\nThe final result of the entire arithmetic expression is:\n\n211394423375976",
+    "correct": false
+  },
+  {
+    "input": "81 * 6762931137900 + 28 * 7175053393993",
+    "expected_output": "748698917201704",
+    "actual_output": "748697916672704",
+    "full_output": "To evaluate the expression 81 * 6762931137900 + 28 * 7175053393993, follow these steps:\n\nStep 1: Break down the expression into two separate multiplication operations.\n\nStep 2: Calculate the first multiplication:\n81 * 6762931137900\n\nPerform the multiplication:\n81 * 6762931137900 = 547796422168900\n\nStep 3: Calculate the second multiplication:\n28 * 7175053393993\n\nPerform the multiplication:\n28 * 7175053393993 = 200901494503804\n\nStep 4: Add the results from both multiplications obtained in Step 2 and Step 3:\n\n547796422168900 + 200901494503804 = 748697916672704\n\nThe final answer is:\n748697916672704",
+    "correct": false
+  },
+  {
+    "input": "44 * 2825171719729 + 1 * 9634578663588",
+    "expected_output": "133942134331664",
+    "actual_output": "133942134331664",
+    "full_output": "To solve the expression \\(44 \\times 2825171719729 + 1 \\times 9634578663588\\), follow these steps:\n\n1. **Multiply:**  \n   Calculate \\(44 \\times 2825171719729\\).\n\n   First, perform the multiplication:\n   \\[\n   44 \\times 2825171719729 = 124307555668076\n   \\]\n\n2. **Multiply One:**  \n   Since multiplying by 1 does not change the number, calculate:\n   \\[\n   1 \\times 9634578663588 = 9634578663588\n   \\]\n\n3. **Add the Results:**  \n   Add the two products from steps 1 and 2:\n   \\[\n   124307555668076 + 9634578663588 = 133942134331664\n   \\]\n\nThe final result of the expression is:\n133942134331664",
+    "correct": true
+  },
+  {
+    "input": "87 * 8018132079673 + 3 * 344139622504",
+    "expected_output": "698609909799063",
+    "actual_output": "698609919799063",
+    "full_output": "Let's break down the arithmetic expression step-by-step:\n\n### Step 1: Multiply 87 by 8018132079673\nFirst, calculate the product of 87 and 8018132079673:\n\\[ 87 \\times 8018132079673 = 697577500931551 \\]\n\n### Step 2: Multiply 3 by 344139622504\nNext, calculate the product of 3 and 344139622504:\n\\[ 3 \\times 344139622504 = 1032418867512 \\]\n\n### Step 3: Add the two products\nNow, we add the results obtained in steps 1 and 2:\n\\[ 697577500931551 + 1032418867512 = 698609919799063 \\]\n\nThe final answer is:\n698609919799063",
+    "correct": false
+  },
+  {
+    "input": "64 * 3487675771397 + 30 * 4697791343468",
+    "expected_output": "364144989673448",
+    "actual_output": "364144989673448",
+    "full_output": "To evaluate the expression `64 * 3487675771397 + 30 * 4697791343468`, we'll start by handling each multiplication separately before adding the results.\n\nStep 1: Multiply 64 by 3487675771397.\n\n64 * 3487675771397 = 223211249369408\n\nStep 2: Multiply 30 by 4697791343468.\n\n30 * 4697791343468 = 140933740304040\n\nStep 3: Add the results from Step 1 and Step 2.\n\n223211249369408 + 140933740304040 = 364144989673448\n\nThe final answer is:\n\n364144989673448",
+    "correct": true
+  },
+  {
+    "input": "13 * 5634258788250 + 100 * 8354535107426",
+    "expected_output": "908698874989850",
+    "actual_output": "908698874989850",
+    "full_output": "To evaluate the expression \\(13 \\times 5634258788250 + 100 \\times 8354535107426\\), we can break it down into two distinct arithmetic operations and then combine the results:\n\n1. **Evaluate the first multiplication: \\(13 \\times 5634258788250\\)**\n\n   - \\(5634258788250 \\times 13 = 73245364247250\\)\n\n2. **Evaluate the second multiplication: \\(100 \\times 8354535107426\\)**\n\n   - \\(8354535107426 \\times 100 = 835453510742600\\)\n\n3. **Add the results from the two multiplications:**\n\n   - \\(73245364247250 + 835453510742600 = 908698874989850\\)\n\nTherefore, the solution to the expression is:\n\n908698874989850",
+    "correct": true
+  },
+  {
+    "input": "15 * 4195005998766 + 21 * 8781242365441",
+    "expected_output": "247331179655751",
+    "actual_output": "247331179655751",
+    "full_output": "To evaluate the expression, we will break it down into steps, solve each part, and add the results.\n\nThe given expression is:  \n15 * 4195005998766 + 21 * 8781242365441\n\n**Step 1**: Calculate 15 * 4195005998766  \n15  \n× 4195005998766  \n------------  \nNow, let's perform the multiplication step-by-step.\n\n Multiplying, starting from the end:\n\n15 × 4195005998766 = 62925089981490\n\n**Step 2**: Calculate 21 * 8781242365441  \n21  \n× 8781242365441  \n------------  \n\nNow, perform the multiplication step-by-step.\n\nMultiplying, starting from the end:\n\n21 × 8781242365441 = 184406089674261\n\n**Step 3**: Add the results from Step 1 and Step 2\n\n62925089981490  \n+ 184406089674261  \n------------------  \n\nAdding the two products:\n\n62925089981490   \n+ 184406089674261  \n------------------  \n= 247331179655751\n\nTherefore, the final answer is:\n247331179655751",
+    "correct": true
+  },
+  {
+    "input": "24 * 6801355956113 + 42 * 9373126715394",
+    "expected_output": "556903864993260",
+    "actual_output": "556903862272260",
+    "full_output": "To evaluate the given expression \\(24 \\times 6801355956113 + 42 \\times 9373126715394\\), we break it down into individual components and compute the results step-by-step.\n\n1. Calculate \\(24 \\times 6801355956113\\):\n   \\[\n   24 \\times 6801355956113 = 163232543026712\n   \\]\n\n2. Calculate \\(42 \\times 9373126715394\\):\n   \\[\n   42 \\times 9373126715394 = 393671319245548\n   \\]\n\n3. Add the results of the two multiplications:\n   \\[\n   163232543026712 + 393671319245548 = 556903862272260\n   \\]\n\nThe final evaluated result of the expression is:\n\n556903862272260",
+    "correct": false
+  },
+  {
+    "input": "24 * 4021963449289 + 69 * 267660926531",
+    "expected_output": "114995726713575",
+    "actual_output": "114995826713575",
+    "full_output": "Certainly, let's solve the expression \\(24 \\times 4021963449289 + 69 \\times 267660926531\\) step by step.\n\nStep 1: Calculate \\(24 \\times 4021963449289\\).\n\n\\[\n24 \\times 4021963449289 = 96527122782936\n\\]\n\nStep 2: Calculate \\(69 \\times 267660926531\\).\n\n\\[\n69 \\times 267660926531 = 18468703930639\n\\]\n\nStep 3: Add the results from Step 1 and Step 2.\n\n\\[\n96527122782936 + 18468703930639 = 114995826713575\n\\]\n\nFinal Answer:\n\n114995826713575",
+    "correct": false
+  },
+  {
+    "input": "14 * 4533151105389 + 5 * 2254352841510",
+    "expected_output": "74735879682996",
+    "actual_output": "74735879682996",
+    "full_output": "Certainly, let's evaluate the expression step by step:\n\nGiven expression: \n\n\\[ 14 \\times 4533151105389 + 5 \\times 2254352841510 \\]\n\n1. Begin by evaluating each multiplication component separately.\n\n   - Calculate \\( 14 \\times 4533151105389 \\):\n\n     \\[\n     14 \\times 4533151105389 = 63464115475446\n     \\]\n\n   - Calculate \\( 5 \\times 2254352841510 \\):\n\n     \\[\n     5 \\times 2254352841510 = 11271764207550\n     \\]\n\n2. Sum the results of the two multiplications:\n\n   \\[\n   63464115475446 + 11271764207550 = 74735879682996\n   \\]\n\nThus, the final result of the given expression is:\n\n74735879682996",
+    "correct": true
+  },
+  {
+    "input": "92 * 5951501879444 + 82 * 6102540019936",
+    "expected_output": "1047946454543600",
+    "actual_output": "1047946454544600",
+    "full_output": "To evaluate the expression `92 * 5951501879444 + 82 * 6102540019936`, we will break it down into the following steps:\n\n1. Calculate the result of `92 * 5951501879444`.\n2. Calculate the result of `82 * 6102540019936`.\n3. Add the results from step 1 and step 2.\n\n**Step 1: Calculate `92 * 5951501879444`**\n\n   \\( 92 \\times 5951501879444 = 547538172909848 \\)\n\n**Step 2: Calculate `82 * 6102540019936`**\n\n   \\( 82 \\times 6102540019936 = 500408281634752 \\)\n\n**Step 3: Add the Step 1 and Step 2 results**\n\n   \\( 547538172909848 + 500408281634752 = 1047946454544600 \\)\n\nThe final answer is:\n1047946454544600",
+    "correct": false
+  },
+  {
+    "input": "9 * 3983688004440 + 52 * 3041479643057",
+    "expected_output": "194010133478924",
+    "actual_output": "194010133478924",
+    "full_output": "Let's solve the expression step-by-step:  \nExpression: 9 * 3983688004440 + 52 * 3041479643057  \n\n1. First, let's calculate the first part:  \n   \\( 9 \\times 3983688004440 \\)  \n\n   Step-by-step multiplication:  \n   - \\( 9 \\times 3983688004440 = 35853192039960 \\)\n\n2. Next, let's calculate the second part:  \n   \\( 52 \\times 3041479643057 \\)\n\n  Step-by-step multiplication:  \n   - \\( 52 \\times 3041479643057 = 158156941438964 \\)\n\n3. Finally, add the two results:  \n   \\( 35853192039960 + 158156941438964 \\)\n\n   Step-by-step addition:  \n   - \\( 35853192039960 + 158156941438964 = 194010133478924 \\)\n\nThe final answer is:  \n194010133478924",
+    "correct": true
+  },
+  {
+    "input": "50 * 1581278475981 + 40 * 5366204683546",
+    "expected_output": "293712111140890",
+    "actual_output": "293712111140890",
+    "full_output": "Let's evaluate the expression step by step:\n\nThe expression is: \n\\[ 50 \\times 1581278475981 + 40 \\times 5366204683546 \\]\n\n1. First, deal with the multiplication:\n   \\[ 50 \\times 1581278475981 = 79063923799050 \\]\n\n2. Next, handle the second multiplication:\n   \\[ 40 \\times 5366204683546 = 214648187341840 \\]\n\n3. Now, add the results of both multiplications:\n   \\[ 79063923799050 + 214648187341840 = 293712111140890 \\]\n\nThe final answer is:\n293712111140890",
+    "correct": true
+  },
+  {
+    "input": "12 * 3919755796360 + 59 * 7052466604180",
+    "expected_output": "463132599202940",
+    "actual_output": "463133599202940",
+    "full_output": "Sure, I'll solve the arithmetic expression step by step:\n\n### Step 1: Evaluate the individual multiplications. \nLet's first do the multiplication one at a time:\n\n1. **Calculate 12 * 3919755796360:**\n   \\[\n   12 \\times 3919755796360 = 47037069556320\n   \\]\n\n2. **Calculate 59 * 7052466604180:**\n   \\[\n   59 \\times 7052466604180 = 416096529646620\n   \\]\n\n### Step 2: Add the results of the multiplications.\nNow add the two products:\n\n\\[\n47037069556320 + 416096529646620 = 463133599202940\n\\]\n\nThe final result of the expression is:\n\n463133599202940",
+    "correct": false
+  },
+  {
+    "input": "92 * 951269034489 + 48 * 831258624907",
+    "expected_output": "127417165168524",
+    "actual_output": "127577165168524",
+    "full_output": "To evaluate the expression \\(92 \\times 951269034489 + 48 \\times 831258624907\\), we can break it down into a step-by-step calculation:\n\n1. First, calculate \\(92 \\times 951269034489\\).\n   \n   \\[\n   92 \\times 951269034489 = 87676751172988\n   \\]\n\n2. Next, calculate \\(48 \\times 831258624907\\).\n\n   \\[\n   48 \\times 831258624907 = 39900413995536\n   \\]\n\n3. Now, add the two products together:\n\n   \\[\n   87676751172988 + 39900413995536 = 127577165168524\n   \\]\n\nThe final answer is\n\n127577165168524",
+    "correct": false
+  },
+  {
+    "input": "63 * 814144917905 + 64 * 8214244153504",
+    "expected_output": "577002755652271",
+    "actual_output": "576003055552271",
+    "full_output": "To evaluate the expression \\(63 \\times 814144917905 + 64 \\times 8214244153504\\), follow these steps:\n\n1. **Calculate the first product**: \n   - \\(63 \\times 814144917905 = 51291429728015\\)\n\n2. **Calculate the second product**: \n   - \\(64 \\times 8214244153504 = 525711625824256\\)\n\n3. **Add the two results together** to find the sum:\n   - \\(51291429728015 + 525711625824256 = 576003055552271\\)\n\nFinally, the result of the expression is:\n\n576003055552271",
+    "correct": false
+  },
+  {
+    "input": "37 * 8687291567018 + 93 * 4664403320903",
+    "expected_output": "755219296823645",
+    "actual_output": "755224297824645",
+    "full_output": "To evaluate the expression \\(37 \\times 8687291567018 + 93 \\times 4664403320903\\), we'll break it down into its two main components:\n\n1. Calculate \\(37 \\times 8687291567018\\).\n2. Calculate \\(93 \\times 4664403320903\\).\n3. Add the results of the two calculations.\n\n**Step 1: Calculate \\(37 \\times 8687291567018\\)**\n\nLet's perform this multiplication:\n\\[\n37 \\times 8687291567018 = 321430788979666\n\\]\n\n**Step 2: Calculate \\(93 \\times 4664403320903\\)**\n\nNow perform this multiplication:\n\\[\n93 \\times 4664403320903 = 433793508844979\n\\]\n\n**Step 3: Add the results from Step 1 and Step 2**\n\nNow add the two results together:\n\\[\n321430788979666 + 433793508844979 = 755224297824645\n\\]\n\n755224297824645",
+    "correct": false
+  },
+  {
+    "input": "78 * 9741115826501 + 51 * 1885920238389",
+    "expected_output": "855988966624917",
+    "actual_output": "855987963624917",
+    "full_output": "To solve the expression \\( 78 \\times 9741115826501 + 51 \\times 1885920238389 \\), we will break it down into smaller steps.\n\n1. **Calculate \\( 78 \\times 9741115826501 \\):**\n\n   \\[\n   78 \\times 9741115826501 = 759806031467078\n   \\]\n\n2. **Calculate \\( 51 \\times 1885920238389 \\):**\n\n   \\[\n   51 \\times 1885920238389 = 96181932157839\n   \\]\n\n3. **Add the results from step 1 and step 2:**\n\n   \\[\n   759806031467078 + 96181932157839 = 855987963624917\n   \\]\n\nThus, the final answer is:\n\n855987963624917",
+    "correct": false
+  },
+  {
+    "input": "77 * 467569407542 + 31 * 3659351592437",
+    "expected_output": "149442743746281",
+    "actual_output": "149443744046281",
+    "full_output": "To evaluate the expression \\( 77 \\times 467569407542 + 31 \\times 3659351592437 \\), we break it down into smaller parts and then combine them.\n\n1. Calculate \\( 77 \\times 467569407542 \\):\n   \\[\n   77 \\times 467569407542 = 36002844680734\n   \\]\n\n2. Calculate \\( 31 \\times 3659351592437 \\):\n   \\[\n   31 \\times 3659351592437 = 113440899365547\n   \\]\n\n3. Add the two results together:\n   \\[\n   36002844680734 + 113440899365547 = 149443744046281\n   \\]\n\nThe final result of the expression is:\n149443744046281",
+    "correct": false
+  },
+  {
+    "input": "70 * 7830912692850 + 50 * 4108484919017",
+    "expected_output": "753588134450350",
+    "actual_output": "753588134450350",
+    "full_output": "To evaluate the expression \\(70 \\times 7830912692850 + 50 \\times 4108484919017\\), we break it down into smaller parts, starting by calculating each multiplication separately. \n\nFirst, calculate \\(70 \\times 7830912692850\\):\n\\[\n70 \\times 7830912692850 = 548163888499500\n\\]\n\nNext, calculate \\(50 \\times 4108484919017\\):\n\\[\n50 \\times 4108484919017 = 205424245950850\n\\]\n\nNow add the results of these two multiplications together:\n\\[\n548163888499500 + 205424245950850 = 753588134450350\n\\]\n\nFinally, the result of the entire expression is:\n753588134450350",
+    "correct": true
+  },
+  {
+    "input": "39 * 380513957029 + 60 * 7978807474905",
+    "expected_output": "493568492818431",
+    "actual_output": "478877048936431",
+    "full_output": "To evaluate the given expression, let's handle the operations step-by-step:\n\n1. Evaluate the first multiplication: \\( 39 \\times 380513957029 \\)\n   - First, break down the multiplication calculation:\n     - \\( 39 \\times 7600000000000 = 14860566404131 \\)\n     - The result for the first multiplication is 14860044224131.\n\n2. Evaluate the second multiplication: \\( 60 \\times 7978807474905 \\)\n   - First, break down the multiplication calculation:\n     - \\( 60 \\times 7978807474905 = 478728448494300 \\)\n     - The result for the second multiplication is 478728448494300.\n\n3. Add the results of the two multiplications together:\n   - \\( 14860044224131 + 478728448494300 = 478877048936431 \\)\n\nThus, the final result of the expression is:\n\n478877048936431",
+    "correct": false
+  },
+  {
+    "input": "10 * 8884700533484 + 21 * 7112756492852",
+    "expected_output": "238214891684732",
+    "actual_output": "238214891684732",
+    "full_output": "To solve the given arithmetic expression `10 * 8884700533484 + 21 * 7112756492852`, we will follow these steps:\n\n1. **Multiply** `10 * 8884700533484`:\n   - First, perform the multiplication: \n     \\[\n     10 \\times 8884700533484 = 88847005334840\n     \\]\n\n2. **Multiply** `21 * 7112756492852`:\n   - Next, perform the multiplication:\n     \\[\n     21 \\times 7112756492852 = 149367886349892\n     \\]\n\n3. **Add** the results of the two products:\n   - Adding the two results together:\n     \\[\n     88847005334840 + 149367886349892 = 238214891684732\n     \\]\n\nTherefore, the final answer to the arithmetic expression is:\n\n238214891684732",
+    "correct": true
+  },
+  {
+    "input": "89 * 5670695771113 + 62 * 5759518387942",
+    "expected_output": "861782063681461",
+    "actual_output": "861782063682461",
+    "full_output": "Let's break down the given expression and simplify it step by step.\n\nThe original expression is:\n\\[ \n89 \\times 5670695771113 + 62 \\times 5759518387942\n\\]\n\n**Step 1**: Calculate \\( 89 \\times 5670695771113 \\).\n\nFirst, multiply:\n\\[\n89 \\times 5670695771113 = 504691923629057\n\\]\n\n**Step 2**: Calculate \\( 62 \\times 5759518387942 \\).\n\nNext, multiply:\n\\[\n62 \\times 5759518387942 = 357090140053404\n\\]\n\n**Step 3**: Add the results from Step 1 and Step 2.\n\nAdding these two results gives:\n\\[\n504691923629057 + 357090140053404 = 861782063682461\n\\]\n\nTherefore, the final result of the expression is:\n\\[ \n861782063682461 \n\\]\n\n861782063682461",
+    "correct": false
+  },
+  {
+    "input": "51 * 5873636955393 + 67 * 3277190502615",
+    "expected_output": "519127248400248",
+    "actual_output": "519128263399248",
+    "full_output": "To evaluate the given expression, we will break it down into smaller components and solve in steps.\n\n1. Expression:  \n   \\( 51 \\times 5873636955393 + 67 \\times 3277190502615 \\)\n\n2. First, calculate \\( 51 \\times 5873636955393 \\):  \n   Let's denote this as \\( A \\).  \n   \\( A = 51 \\times 5873636955393 \\)\n\n3. Next, calculate \\( 67 \\times 3277190502615 \\):  \n   Let's denote this as \\( B \\).  \n   \\( B = 67 \\times 3277190502615 \\)\n\n4. Finally, add the results of \\( A \\) and \\( B \\):  \n   Final result \\( = A + B \\)\n\nNow, let's calculate these values:\n\n---\n\nStep 1: Calculate \\( A \\)\n\n\\[\n51 \\times 5873636955393 = 299555484724043\n\\]\n\nStep 2: Calculate \\( B \\)\n\n\\[\n67 \\times 3277190502615 = 219572778675205\n\\]\n\nStep 3: Add \\( A \\) and \\( B \\)\n\n\\[\n299555484724043 + 219572778675205 = 519128263399248\n\\]\n\n---\n\nThe final answer is:\n\n519128263399248",
+    "correct": false
+  },
+  {
+    "input": "16 * 192584841096 + 9 * 3799018431615",
+    "expected_output": "37272523342071",
+    "actual_output": "37272523342071",
+    "full_output": "To evaluate the expression \\(16 \\times 192584841096 + 9 \\times 3799018431615\\), follow the steps below:\n\n1. **Calculate \\(16 \\times 192584841096\\):**\n\n\\[\n16 \\times 192584841096 = 3081357457536\n\\]\n\n2. **Calculate \\(9 \\times 3799018431615\\):**\n\n\\[\n9 \\times 3799018431615 = 34191165884535\n\\]\n\n3. **Add the results from step 1 and step 2:**\n\n\\[\n3081357457536 + 34191165884535 = 37272523342071\n\\]\n\nThus, the result of the expression is:\n\n37272523342071",
+    "correct": true
+  },
+  {
+    "input": "38 * 9428361981096 + 25 * 3562194010804",
+    "expected_output": "447332605551748",
+    "actual_output": "447332605551748",
+    "full_output": "To evaluate the expression \\(38 \\times 9428361981096 + 25 \\times 3562194010804\\), we will break it down into simpler steps.\n\n1. Calculate the first product:  \n   \\(38 \\times 9428361981096\\).\n\n2. Calculate the second product:  \n   \\(25 \\times 3562194010804\\).\n\n3. Add the two results from steps 1 and 2.\n\nLet's go through each step:\n\n### Step 1: Calculate \\(38 \\times 9428361981096\\)\nFirst, multiply the numbers:\n\\[\n38 \\times 9428361981096 = 358277755281648\n\\]\n\n### Step 2: Calculate \\(25 \\times 3562194010804\\)\nNext, multiply these numbers:\n\\[\n25 \\times 3562194010804 = 89054850270100\n\\]\n\n### Step 3: Add the Results\nNow, add the results from Step 1 and Step 2:\n\\[\n358277755281648 + 89054850270100 = 447332605551748\n\\]\n\nThe final result of the expression \\(38 \\times 9428361981096 + 25 \\times 3562194010804\\) is:\n\\[\n\\boxed{447332605551748}\n\\]",
+    "correct": true
+  },
+  {
+    "input": "85 * 3368913965066 + 98 * 4370544718767",
+    "expected_output": "714671069469776",
+    "actual_output": "714671069469776",
+    "full_output": "To solve the expression \\( 85 \\times 3368913965066 + 98 \\times 4370544718767 \\), we will follow these steps:\n\n1. Calculate \\( 85 \\times 3368913965066 \\).\n2. Calculate \\( 98 \\times 4370544718767 \\).\n3. Add the two results together.\n\n**Step 1: Calculate \\( 85 \\times 3368913965066 \\)**\n\n\\[ 85 \\times 3368913965066 = 286357687030610 \\]\n\n**Step 2: Calculate \\( 98 \\times 4370544718767 \\)**\n\n\\[ 98 \\times 4370544718767 = 428313382439166 \\]\n\n**Step 3: Add the results from Step 1 and Step 2**\n\n\\[ 286357687030610 + 428313382439166 = 714671069469776 \\]\n\nTherefore, the evaluated result of the expression is:\n\n714671069469776",
+    "correct": true
+  },
+  {
+    "input": "59 * 5444326858576 + 23 * 5328983883918",
+    "expected_output": "443781913986098",
+    "actual_output": "443781913826098",
+    "full_output": "To evaluate the arithmetic expression, we can break down the operations into two parts: multiplication and addition. Let's evaluate step by step.\n\n**Step 1: Evaluate each multiplication separately.**\n\n1. Calculate \\(59 \\times 5444326858576\\)\n\n   Let's do this multiplication:\n\n   \\[\n   59 \\times 5444326858576 = 321215284655984\n   \\]\n\n2. Calculate \\(23 \\times 5328983883918\\)\n\n   Let's do this multiplication:\n\n   \\[\n   23 \\times 5328983883918 = 122566629170114\n   \\]\n\n**Step 2: Add the results from each multiplication.**\n\nNow, we add the two products obtained from our previous calculations:\n\n\\[\n321215284655984 + 122566629170114 = 443781913826098\n\\]\n\nThe final answer is:\n\n443781913826098",
+    "correct": false
+  },
+  {
+    "input": "55 * 8016144614109 + 78 * 8977176342523",
+    "expected_output": "1141107708492789",
+    "actual_output": "1141109708494789",
+    "full_output": "To solve the expression `55 * 8016144614109 + 78 * 8977176342523`, we need to follow the order of operations, which includes performing multiplication before addition. Here’s a step-by-step breakdown:\n\n1. **Multiply 55 by 8016144614109:**\n\n   \\[\n   55 \\times 8016144614109 = 440888953776995\n   \\]\n\n2. **Multiply 78 by 8977176342523:**\n\n   \\[\n   78 \\times 8977176342523 = 700220754717794\n   \\]\n\n3. **Add the two products together:**\n\n   \\[\n   440888953776995 + 700220754717794 = 1141109708494789\n   \\]\n\nThe final result is:\n\n1141109708494789",
+    "correct": false
+  },
+  {
+    "input": "63 * 6714652830670 + 21 * 5617662401463",
+    "expected_output": "540994038762933",
+    "actual_output": "540993038762933",
+    "full_output": "To solve the expression \\(63 \\times 6714652830670 + 21 \\times 5617662401463\\), we will evaluate each part step by step.\n\n1. **Evaluate \\(63 \\times 6714652830670\\):**\n\n   \\[\n   63 \\times 6714652830670 = 423022128332210\n   \\]\n\n2. **Evaluate \\(21 \\times 5617662401463\\):**\n\n   \\[\n   21 \\times 5617662401463 = 117970910430723\n   \\]\n\n3. **Add the results from steps 1 and 2:**\n\n   \\[\n   423022128332210 + 117970910430723 = 540993038762933\n   \\]\n\nTherefore, the final answer is:\n\n540993038762933",
+    "correct": false
+  },
+  {
+    "input": "52 * 6587204222777 + 100 * 2599006072705",
+    "expected_output": "602435226854904",
+    "actual_output": "602435226854904",
+    "full_output": "To solve the given expression step-by-step:\n\n1. Break down the expression into two parts:\n   - Part 1: \\( 52 \\times 6587204222777 \\)\n   - Part 2: \\( 100 \\times 2599006072705 \\)\n\n2. Calculate each part separately.\n   \n   For Part 1:\n   \\[\n   52 \\times 6587204222777 = 342534619584404\n   \\]\n\n   For Part 2:\n   \\[\n   100 \\times 2599006072705 = 259900607270500\n   \\]\n\n3. Sum the results of Part 1 and Part 2:\n   \\[\n   342534619584404 + 259900607270500 = 602435226854904\n   \\]\n\nThe very last line of the response should be the final answer:\n602435226854904",
+    "correct": true
+  },
+  {
+    "input": "86 * 2762987267549 + 22 * 6742429155045",
+    "expected_output": "385950346420204",
+    "actual_output": "385950349415204",
+    "full_output": "To evaluate the expression \\(86 \\times 2762987267549 + 22 \\times 6742429155045\\), we will break this down step by step.\n\n1. Calculate \\(86 \\times 2762987267549\\):\n   - First, perform the multiplication:\n     \\( 86 \\times 2762987267549 = 237616908004214\\).\n\n2. Calculate \\(22 \\times 6742429155045\\):\n   - Perform the multiplication:\n     \\( 22 \\times 6742429155045 = 148333441410990\\).\n\n3. Add the two results together:\n   - \\( 237616908004214 + 148333441410990 = 385950349415204\\).\n\nThe final answer is:\n385950349415204",
+    "correct": false
+  },
+  {
+    "input": "43 * 2345314634520 + 34 * 6005751297253",
+    "expected_output": "305044073390962",
+    "actual_output": "305046073390962",
+    "full_output": "Sure, let's evaluate the expression step-by-step:\n\nThe expression is:  \n\\[ 43 \\times 2345314634520 + 34 \\times 6005751297253 \\]\n\nFirst, compute each multiplication separately:\n\n1. Calculate \\( 43 \\times 2345314634520 \\):\n   \\[\n   43 \\times 2345314634520 = 100850529284360\n   \\]\n\n2. Calculate \\( 34 \\times 6005751297253 \\):\n   \\[\n   34 \\times 6005751297253 = 204195544106602\n   \\]\n\nNext, add the results of these separate calculations:\n\n\\[ \n100850529284360 + 204195544106602 = 305046073390962 \n\\]\n\nFinal answer:\n305046073390962",
+    "correct": false
+  },
+  {
+    "input": "69 * 1041046240903 + 38 * 6443773499970",
+    "expected_output": "316695583621167",
+    "actual_output": "963185298221667",
+    "full_output": "To evaluate the expression \\( 69 \\times 1041046240903 + 38 \\times 6443773499970 \\), follow these steps:\n\nStep 1: Calculate \\( 69 \\times 1041046240903 \\).\n\nUsing standard multiplication:\n\n\\( 69 \\times 1041046240903 = 718322905222807 \\).\n\nStep 2: Calculate \\( 38 \\times 6443773499970 \\).\n\nAgain, using standard multiplication:\n\n\\( 38 \\times 6443773499970 = 244862392998860 \\).\n\nStep 3: Add the results from steps 1 and 2.\n\n\\( 718322905222807 + 244862392998860 = 963185298221667 \\).\n\nThe final result of the expression is:\n\n963185298221667",
+    "correct": false
+  }
+]

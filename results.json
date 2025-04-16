@@ -1,0 +1,72 @@
+[
+  {
+    "label": "0 + 1",
+    "input": "0 + 1",
+    "expected_output": "1",
+    "actual_output": "1",
+    "correct": true
+  },
+  {
+    "label": "1 + 2",
+    "input": "1 + 2",
+    "expected_output": "3",
+    "actual_output": "3",
+    "correct": true
+  },
+  {
+    "label": "2 + 3",
+    "input": "2 + 3",
+    "expected_output": "5",
+    "actual_output": "5",
+    "correct": true
+  },
+  {
+    "label": "3 + 4",
+    "input": "3 + 4",
+    "expected_output": "7",
+    "actual_output": "7",
+    "correct": true
+  },
+  {
+    "label": "4 + 5",
+    "input": "4 + 5",
+    "expected_output": "9",
+    "actual_output": "9",
+    "correct": true
+  },
+  {
+    "label": "5 + 6",
+    "input": "5 + 6",
+    "expected_output": "11",
+    "actual_output": "11",
+    "correct": true
+  },
+  {
+    "label": "6 + 7",
+    "input": "6 + 7",
+    "expected_output": "13",
+    "actual_output": "13",
+    "correct": true
+  },
+  {
+    "label": "7 + 8",
+    "input": "7 + 8",
+    "expected_output": "15",
+    "actual_output": "15",
+    "correct": true
+  },
+  {
+    "label": "8 + 9",
+    "input": "8 + 9",
+    "expected_output": "17",
+    "actual_output": "17",
+    "correct": true
+  },
+  {
+    "label": "9 + 10",
+    "input": "9 + 10",
+    "expected_output": "19",
+    "actual_output": "19",
+    "correct": true
+  }
+]
