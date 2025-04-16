@@ -1,6 +1,7 @@
 # llm-math-tests
 
-- [gpt-4](https://openai.com/index/gpt-4-research/)
+Dependencies:
+- [bun.sh](https://bun.sh/)
 
 ```
 bun install
